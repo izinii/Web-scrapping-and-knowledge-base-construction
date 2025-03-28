@@ -1,0 +1,8 @@
+@prefix ex: <http://example.org/> .
+
+ex:Jobs ex:found ex:Apple .
+
+ex:Musk ex:work_at ex:SpaceX .
+
+ex:Pichai ex:ceo_of ex:Google .
+

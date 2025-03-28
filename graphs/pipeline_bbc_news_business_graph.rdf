@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="https://www.bbc.com/news/business#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#deals">
+    <ex:do_across rdf:resource="https://www.bbc.com/news/business#globe"/>
+    <ex:do_over rdf:resource="https://www.bbc.com/news/business#tariffs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Ireland">
+    <ex:have rdf:resource="https://www.bbc.com/news/business#industry"/>
+    <ex:come_at rdf:resource="https://www.bbc.com/news/business#this"/>
+    <ex:come_from rdf:resource="https://www.bbc.com/news/business#position"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#This">
+    <ex:lead_to rdf:resource="https://www.bbc.com/news/business#carmakers"/>
+    <ex:lead_without rdf:resource="https://www.bbc.com/news/business#presence"/>
+    <ex:include rdf:resource="https://www.bbc.com/news/business#makers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#I">
+    <ex:fix rdf:resource="https://www.bbc.com/news/business#prices"/>
+    <ex:hear_in rdf:resource="https://www.bbc.com/news/business#years"/>
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#you"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#It">
+    <ex:follow rdf:resource="https://www.bbc.com/news/business#moves"/>
+    <ex:finish_after rdf:resource="https://www.bbc.com/news/business#years"/>
+    <ex:throw rdf:resource="https://www.bbc.com/news/business#economies"/>
+    <ex:throw_into rdf:resource="https://www.bbc.com/news/business#chaos"/>
+    <ex:weather rdf:resource="https://www.bbc.com/news/business#storm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Anderson">
+    <ex:quote rdf:resource="https://www.bbc.com/news/business#research"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#vision">
+    <ex:emerge_in rdf:resource="https://www.bbc.com/news/business#Britain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Trump">
+    <ex:announce rdf:resource="https://www.bbc.com/news/business#tariffs"/>
+    <ex:announce_to rdf:resource="https://www.bbc.com/news/business#US"/>
+    <ex:talk_in rdf:resource="https://www.bbc.com/news/business#year"/>
+    <ex:talk_about rdf:resource="https://www.bbc.com/news/business#tariffs"/>
+    <ex:use rdf:resource="https://www.bbc.com/news/business#powers"/>
+    <ex:speak_of rdf:resource="https://www.bbc.com/news/business#admiration"/>
+    <ex:speak_with rdf:resource="https://www.bbc.com/news/business#caveat"/>
+    <ex:try_in rdf:resource="https://www.bbc.com/news/business#sense"/>
+    <ex:name rdf:resource="https://www.bbc.com/news/business#himself"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#people">
+    <ex:know_about rdf:resource="https://www.bbc.com/news/business#this"/>
+    <ex:do_with rdf:resource="https://www.bbc.com/news/business#ownership"/>
+    <ex:die_in rdf:resource="https://www.bbc.com/news/business#blaze"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#us">
+    <ex:deal_with rdf:resource="https://www.bbc.com/news/business#it"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#deal">
+    <ex:reach_with rdf:resource="https://www.bbc.com/news/business#Trump"/>
+    <ex:reach_over rdf:resource="https://www.bbc.com/news/business#tariffs"/>
+    <ex:come_under rdf:resource="https://www.bbc.com/news/business#scrutiny"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Britain">
+    <ex:take_to rdf:resource="https://www.bbc.com/news/business#taxes"/>
+    <ex:depart_from rdf:resource="https://www.bbc.com/news/business#consensus"/>
+    <ex:embrace rdf:resource="https://www.bbc.com/news/business#market"/>
+    <ex:bind_to rdf:resource="https://www.bbc.com/news/business#system"/>
+    <ex:have rdf:resource="https://www.bbc.com/news/business#period"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#government">
+    <ex:explore rdf:resource="https://www.bbc.com/news/business#options"/>
+    <ex:lock_With rdf:resource="https://www.bbc.com/news/business#inflation"/>
+    <ex:lock_in rdf:resource="https://www.bbc.com/news/business#battle"/>
+    <ex:introduce rdf:resource="https://www.bbc.com/news/business#week"/>
+    <ex:prepare_for rdf:resource="https://www.bbc.com/news/business#difficulties"/>
+    <ex:prepare_for rdf:resource="https://www.bbc.com/news/business#disruption"/>
+    <ex:deal_with rdf:resource="https://www.bbc.com/news/business#sector"/>
+    <ex:deal_with rdf:resource="https://www.bbc.com/news/business#economy"/>
+    <ex:deal_with rdf:resource="https://www.bbc.com/news/business#issues"/>
+    <ex:oust_in rdf:resource="https://www.bbc.com/news/business#August"/>
+    <ex:oust_following rdf:resource="https://www.bbc.com/news/business#protests"/>
+    <ex:appoint rdf:resource="https://www.bbc.com/news/business#panel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#tariffs">
+    <ex:affect rdf:resource="https://www.bbc.com/news/business#300bn-$400bn"/>
+    <ex:affect_in rdf:resource="https://www.bbc.com/news/business#imports"/>
+    <ex:come_into rdf:resource="https://www.bbc.com/news/business#effect"/>
+    <ex:hit rdf:resource="https://www.bbc.com/news/business#Midlands"/>
+    <ex:come_on rdf:resource="https://www.bbc.com/news/business#top"/>
+    <ex:have rdf:resource="https://www.bbc.com/news/business#impact"/>
+    <ex:come_at rdf:resource="https://www.bbc.com/news/business#time"/>
+    <ex:have_on rdf:resource="https://www.bbc.com/news/business#economy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#BBC">
+    <ex:go_to rdf:resource="https://www.bbc.com/news/business#dealerships"/>
+    <ex:reach_to rdf:resource="https://www.bbc.com/news/business#Group"/>
+    <ex:reach_for rdf:resource="https://www.bbc.com/news/business#comment"/>
+    <ex:ask rdf:resource="https://www.bbc.com/news/business#voters"/>
+    <ex:ask_in rdf:resource="https://www.bbc.com/news/business#Toronto"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#We">
+    <ex:spend rdf:resource="https://www.bbc.com/news/business#lot"/>
+    <ex:take rdf:resource="https://www.bbc.com/news/business#it"/>
+    <ex:build_against rdf:resource="https://www.bbc.com/news/business#want"/>
+    <ex:promise rdf:resource="https://www.bbc.com/news/business#bills"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#fires">
+    <ex:blast_from rdf:resource="https://www.bbc.com/news/business#manholes"/>
+    <ex:blast_across rdf:resource="https://www.bbc.com/news/business#college"/>
+    <ex:blast_after rdf:resource="https://www.bbc.com/news/business#explosion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#capacity">
+    <ex:build_in rdf:resource="https://www.bbc.com/news/business#Scotland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#consumption">
+    <ex:restrict rdf:resource="https://www.bbc.com/news/business#plans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#sewage">
+    <ex:pour_into rdf:resource="https://www.bbc.com/news/business#rivers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#price">
+    <ex:apply_At rdf:resource="https://www.bbc.com/news/business#moment"/>
+    <ex:apply_across rdf:resource="https://www.bbc.com/news/business#whole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Critics">
+    <ex:describe rdf:resource="https://www.bbc.com/news/business#deal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#country">
+    <ex:face_over rdf:resource="https://www.bbc.com/news/business#decade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Production">
+    <ex:come_to rdf:resource="https://www.bbc.com/news/business#end"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#we">
+    <ex:plunge_into rdf:resource="https://www.bbc.com/news/business#darkness"/>
+    <ex:see_in rdf:resource="https://www.bbc.com/news/business#UK"/>
+    <ex:see_in rdf:resource="https://www.bbc.com/news/business#1980s"/>
+    <ex:see_under rdf:resource="https://www.bbc.com/news/business#government"/>
+    <ex:come_from rdf:resource="https://www.bbc.com/news/business#nation"/>
+    <ex:showcase rdf:resource="https://www.bbc.com/news/business#content"/>
+    <ex:know_In rdf:resource="https://www.bbc.com/news/business#pictures"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Adani">
+    <ex:halve rdf:resource="https://www.bbc.com/news/business#supply"/>
+    <ex:halve_to rdf:resource="https://www.bbc.com/news/business#Bangladesh"/>
+    <ex:halve_on rdf:resource="https://www.bbc.com/news/business#October"/>
+    <ex:halve_as rdf:resource="https://www.bbc.com/news/business#country"/>
+    <ex:face rdf:resource="https://www.bbc.com/news/business#delays"/>
+    <ex:face_for rdf:resource="https://www.bbc.com/news/business#months"/>
+    <ex:provide rdf:resource="https://www.bbc.com/news/business#electricity"/>
+    <ex:provide_to rdf:resource="https://www.bbc.com/news/business#Bangladesh"/>
+    <ex:provide_under rdf:resource="https://www.bbc.com/news/business#contract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#handful">
+    <ex:know rdf:resource="https://www.bbc.com/news/business#content"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Reeves">
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#BBC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Y">
+    <ex:source rdf:resource="https://www.bbc.com/news/business#%"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#You">
+    <ex:get_to rdf:resource="https://www.bbc.com/news/business#system"/>
+    <ex:get rdf:resource="https://www.bbc.com/news/business#unions"/>
+    <ex:want rdf:resource="https://www.bbc.com/news/business#holidays"/>
+    <ex:want rdf:resource="https://www.bbc.com/news/business#protection"/>
+    <ex:send rdf:resource="https://www.bbc.com/news/business#feedback"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#France">
+    <ex:vow rdf:resource="https://www.bbc.com/news/business#retaliation"/>
+    <ex:vow_with rdf:resource="https://www.bbc.com/news/business#minister"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#credit">
+    <ex:blow rdf:resource="https://www.bbc.com/news/business#order"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Automotive">
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#BBC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#billions">
+    <ex:waste_in rdf:resource="https://www.bbc.com/news/business#payments"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#it">
+    <ex:jump_into rdf:resource="https://www.bbc.com/news/business#war"/>
+    <ex:come_to rdf:resource="https://www.bbc.com/news/business#Trump"/>
+    <ex:create_around rdf:resource="https://www.bbc.com/news/business#worth"/>
+    <ex:seem_like rdf:resource="https://www.bbc.com/news/business#world"/>
+    <ex:spread rdf:resource="https://www.bbc.com/news/business#division"/>
+    <ex:reduce_by rdf:resource="https://www.bbc.com/news/business#half"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#storm">
+    <ex:cause rdf:resource="https://www.bbc.com/news/business#mudslides"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#SpaceX">
+    <ex:launch_with rdf:resource="https://www.bbc.com/news/business#crew"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Thatcher">
+    <ex:share rdf:resource="https://www.bbc.com/news/business#view"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#assault">
+    <ex:come_in rdf:resource="https://www.bbc.com/news/business#part"/>
+    <ex:come_from rdf:resource="https://www.bbc.com/news/business#president"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Williams">
+    <ex:leave_in rdf:resource="https://www.bbc.com/news/business#space"/>
+    <ex:leave_for rdf:resource="https://www.bbc.com/news/business#months"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#companies">
+    <ex:have rdf:resource="https://www.bbc.com/news/business#operations"/>
+    <ex:pay rdf:resource="https://www.bbc.com/news/business#tax"/>
+    <ex:pay_to rdf:resource="https://www.bbc.com/news/business#government"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#he">
+    <ex:hit_with rdf:resource="https://www.bbc.com/news/business#tax"/>
+    <ex:golf_with rdf:resource="https://www.bbc.com/news/business#president"/>
+    <ex:see_as rdf:resource="https://www.bbc.com/news/business#meddling"/>
+    <ex:get_in rdf:resource="https://www.bbc.com/news/business#turn"/>
+    <ex:agree_with rdf:resource="https://www.bbc.com/news/business#some"/>
+    <ex:tell_In rdf:resource="https://www.bbc.com/news/business#1994"/>
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#committee"/>
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#Taoiseach"/>
+    <ex:tell_in rdf:resource="https://www.bbc.com/news/business#March"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#market">
+    <ex:transition_from rdf:resource="https://www.bbc.com/news/business#idea"/>
+    <ex:transition_into rdf:resource="https://www.bbc.com/news/business#reality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#few">
+    <ex:believe_at rdf:resource="https://www.bbc.com/news/business#time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#bills">
+    <ex:link_Under rdf:resource="https://www.bbc.com/news/business#system"/>
+    <ex:link_to rdf:resource="https://www.bbc.com/news/business#unit"/>
+    <ex:cut_under rdf:resource="https://www.bbc.com/news/business#pricing"/>
+    <ex:fall_by rdf:resource="https://www.bbc.com/news/business#hundreds"/>
+    <ex:rise_by rdf:resource="https://www.bbc.com/news/business#123"/>
+    <ex:rise_in rdf:resource="https://www.bbc.com/news/business#April"/>
+    <ex:pay_for rdf:resource="https://www.bbc.com/news/business#interest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#shares">
+    <ex:go_In rdf:resource="https://www.bbc.com/news/business#December"/>
+    <ex:go_on rdf:resource="https://www.bbc.com/news/business#sale"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Motors">
+    <ex:bring rdf:resource="https://www.bbc.com/news/business#parts"/>
+    <ex:face rdf:resource="https://www.bbc.com/news/business#costs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Wilmore">
+    <ex:return_to rdf:resource="https://www.bbc.com/news/business#Earth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#readiness">
+    <ex:defy rdf:resource="https://www.bbc.com/news/business#explanation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Jackson">
+    <ex:describe rdf:resource="https://www.bbc.com/news/business#system"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#exports">
+    <ex:havecontinue_to rdf:resource="https://www.bbc.com/news/business#surgeahead"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#That">
+    <ex:amount_to rdf:resource="https://www.bbc.com/news/business#%"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#who">
+    <ex:introduce_as rdf:resource="https://www.bbc.com/news/business#McBride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#which">
+    <ex:know_for rdf:resource="https://www.bbc.com/news/business#factories"/>
+    <ex:top_for rdf:resource="https://www.bbc.com/news/business#year"/>
+    <ex:enter_under rdf:resource="https://www.bbc.com/news/business#agreement"/>
+    <ex:write_to rdf:resource="https://www.bbc.com/news/business#government"/>
+    <ex:use_in rdf:resource="https://www.bbc.com/news/business#parts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#him">
+    <ex:add_to rdf:resource="https://www.bbc.com/news/business#group"/>
+    <ex:lead_through rdf:resource="https://www.bbc.com/news/business#change"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#agreement">
+    <ex:reach_with rdf:resource="https://www.bbc.com/news/business#US"/>
+    <ex:reach_on rdf:resource="https://www.bbc.com/news/business#tariffs"/>
+    <ex:reach_before rdf:resource="https://www.bbc.com/news/business#introduction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#generations">
+    <ex:work_at rdf:resource="https://www.bbc.com/news/business#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Watch">
+    <ex:show rdf:resource="https://www.bbc.com/news/business#moment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Power">
+    <ex:supply rdf:resource="https://www.bbc.com/news/business#MW"/>
+    <ex:supply_to rdf:resource="https://www.bbc.com/news/business#Bangladesh"/>
+    <ex:supply_from rdf:resource="https://www.bbc.com/news/business#plant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#events">
+    <ex:draw_over rdf:resource="https://www.bbc.com/news/business#weekend"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Companies">
+    <ex:meet_with rdf:resource="https://www.bbc.com/news/business#Jones"/>
+    <ex:meet_on rdf:resource="https://www.bbc.com/news/business#morning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#manufacturing">
+    <ex:base_in rdf:resource="https://www.bbc.com/news/business#EU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#tornadoes">
+    <ex:tear_through rdf:resource="https://www.bbc.com/news/business#states"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#reforms">
+    <ex:give rdf:resource="https://www.bbc.com/news/business#chance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#announces">
+    <ex:lead rdf:resource="https://www.bbc.com/news/business#defiance"/>
+    <ex:lead_to rdf:resource="https://www.bbc.com/news/business#tariffs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#drivers">
+    <ex:react_to rdf:resource="https://www.bbc.com/news/business#tariff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#measure">
+    <ex:lead_to rdf:resource="https://www.bbc.com/news/business#prices"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#People">
+    <ex:come_with rdf:resource="https://www.bbc.com/news/business#kinds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Passengers">
+    <ex:evacuate_with rdf:resource="https://www.bbc.com/news/business#injuries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#green">
+    <ex:dig_at rdf:resource="https://www.bbc.com/news/business#course"/>
+    <ex:dig_on rdf:resource="https://www.bbc.com/news/business#March"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#neither">
+    <ex:stake rdf:resource="https://www.bbc.com/news/business#reputations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Volkswagen">
+    <ex:rely_on rdf:resource="https://www.bbc.com/news/business#which"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Iqbal">
+    <ex:discharge_from rdf:resource="https://www.bbc.com/news/business#hospital"/>
+    <ex:discharge_following rdf:resource="https://www.bbc.com/news/business#arrest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#initiative">
+    <ex:see rdf:resource="https://www.bbc.com/news/business#pylons"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#He">
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#News"/>
+    <ex:set rdf:resource="https://www.bbc.com/news/business#tank"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Ferrari">
+    <ex:announce rdf:resource="https://www.bbc.com/news/business#hike"/>
+    <ex:stay_in rdf:resource="https://www.bbc.com/news/business#world"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#firms">
+    <ex:seek rdf:resource="https://www.bbc.com/news/business#support"/>
+    <ex:invest_despite rdf:resource="https://www.bbc.com/news/business#profits"/>
+    <ex:urge rdf:resource="https://www.bbc.com/news/business#help"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#reliance">
+    <ex:keep rdf:resource="https://www.bbc.com/news/business#bills"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#duties">
+    <ex:start_on rdf:resource="https://www.bbc.com/news/business#April"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Karim">
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#Bloomberg"/>
+    <ex:tell_on rdf:resource="https://www.bbc.com/news/business#Thursday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#majority">
+    <ex:cast_With rdf:resource="https://www.bbc.com/news/business#victory"/>
+    <ex:cast_for rdf:resource="https://www.bbc.com/news/business#time"/>
+    <ex:cast_for rdf:resource="https://www.bbc.com/news/business#party"/>
+    <ex:cast rdf:resource="https://www.bbc.com/news/business#votes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#mandate">
+    <ex:set rdf:resource="https://www.bbc.com/news/business#percentage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#executive">
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#News"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#minister">
+    <ex:come_to rdf:resource="https://www.bbc.com/news/business#forefront"/>
+    <ex:come_in rdf:resource="https://www.bbc.com/news/business#negotiations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#CEO">
+    <ex:ceo_of rdf:resource="https://www.bbc.com/news/business#maker"/>
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#Daily"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#officials">
+    <ex:send rdf:resource="https://www.bbc.com/news/business#messages"/>
+    <ex:send_on rdf:resource="https://www.bbc.com/news/business#Signal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#dividends">
+    <ex:flow_to rdf:resource="https://www.bbc.com/news/business#shareholders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#cost">
+    <ex:amount_to rdf:resource="https://www.bbc.com/news/business#80bn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Joseph">
+    <ex:turn_during rdf:resource="https://www.bbc.com/news/business#filming"/>
+    <ex:turn_to rdf:resource="https://www.bbc.com/news/business#team"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Man">
+    <ex:charge_over rdf:resource="https://www.bbc.com/news/business#vandalism"/>
+    <ex:charge_at rdf:resource="https://www.bbc.com/news/business#Turnberry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Party">
+    <ex:trounce_in rdf:resource="https://www.bbc.com/news/business#election"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#boss">
+    <ex:back rdf:resource="https://www.bbc.com/news/business#bills"/>
+    <ex:back_for rdf:resource="https://www.bbc.com/news/business#those"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Tesla">
+    <ex:get_from rdf:resource="https://www.bbc.com/news/business#mandate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#idea">
+    <ex:sound_in rdf:resource="https://www.bbc.com/news/business#2025"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#capsule">
+    <ex:dock_at rdf:resource="https://www.bbc.com/news/business#ISS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#orders">
+    <ex:cancel_for rdf:resource="https://www.bbc.com/news/business#rest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#politicians">
+    <ex:sit_on rdf:resource="https://www.bbc.com/news/business#hands"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Toyota">
+    <ex:have_for rdf:resource="https://www.bbc.com/news/business#example"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#prices">
+    <ex:fall_following rdf:resource="https://www.bbc.com/news/business#announcement"/>
+    <ex:base_on rdf:resource="https://www.bbc.com/news/business#generation"/>
+    <ex:rise_in rdf:resource="https://www.bbc.com/news/business#UK"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#tweak">
+    <ex:help rdf:resource="https://www.bbc.com/news/business#exporters"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Uncertainty">
+    <ex:grip rdf:resource="https://www.bbc.com/news/business#family"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#papers">
+    <ex:suffer rdf:resource="https://www.bbc.com/news/business#effects"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#options">
+    <ex:include rdf:resource="https://www.bbc.com/news/business#pricing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#tornado">
+    <ex:roar_past rdf:resource="https://www.bbc.com/news/business#house"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#challenge">
+    <ex:come_from rdf:resource="https://www.bbc.com/news/business#supporters"/>
+    <ex:come_from rdf:resource="https://www.bbc.com/news/business#Trump"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#projects">
+    <ex:divert_to rdf:resource="https://www.bbc.com/news/business#parts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#production">
+    <ex:fall_in rdf:resource="https://www.bbc.com/news/business#February"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Dolphins">
+    <ex:surround_after rdf:resource="https://www.bbc.com/news/business#Watch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#kids">
+    <ex:walk_without rdf:resource="https://www.bbc.com/news/business#hiding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#plan">
+    <ex:push rdf:resource="https://www.bbc.com/news/business#bills"/>
+    <ex:threaten_in rdf:resource="https://www.bbc.com/news/business#Florida"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Carney">
+    <ex:meet rdf:resource="https://www.bbc.com/news/business#Charles"/>
+    <ex:meet_at rdf:resource="https://www.bbc.com/news/business#Palace"/>
+    <ex:meet_before rdf:resource="https://www.bbc.com/news/business#talks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Water">
+    <ex:privatise_In rdf:resource="https://www.bbc.com/news/business#1989"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#countries">
+    <ex:throw rdf:resource="https://www.bbc.com/news/business#dilemma"/>
+    <ex:throw_for rdf:resource="https://www.bbc.com/news/business#analysis"/>
+    <ex:throw_with rdf:resource="https://www.bbc.com/news/business#perspectives"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#spacecraft">
+    <ex:arrive_at rdf:resource="https://www.bbc.com/news/business#Station"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#O'Brien">
+    <ex:honour_at rdf:resource="https://www.bbc.com/news/business#Center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#company">
+    <ex:extract rdf:resource="https://www.bbc.com/news/business#profit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#response">
+    <ex:clash_with rdf:resource="https://www.bbc.com/news/business#Republican"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Bangladesh">
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#conglomerate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#system">
+    <ex:find rdf:resource="https://www.bbc.com/news/business#itself"/>
+    <ex:find_under rdf:resource="https://www.bbc.com/news/business#assault"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#flight">
+    <ex:catch_at rdf:resource="https://www.bbc.com/news/business#Airport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Investors">
+    <ex:sell rdf:resource="https://www.bbc.com/news/business#shares"/>
+    <ex:sell_on rdf:resource="https://www.bbc.com/news/business#Thursday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#everyone">
+    <ex:buy_into rdf:resource="https://www.bbc.com/news/business#consensus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#bill">
+    <ex:start_at rdf:resource="https://www.bbc.com/news/business#2bn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#love">
+    <ex:lead_to rdf:resource="https://www.bbc.com/news/business#growth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Musk">
+    <ex:write_on rdf:resource="https://www.bbc.com/news/business#media"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Scotland">
+    <ex:switch_to rdf:resource="https://www.bbc.com/news/business#parts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#that">
+    <ex:challenge_on rdf:resource="https://www.bbc.com/news/business#issues"/>
+    <ex:matter_for rdf:resource="https://www.bbc.com/news/business#Ireland"/>
+    <ex:bring_into rdf:resource="https://www.bbc.com/news/business#country"/>
+    <ex:export_to rdf:resource="https://www.bbc.com/news/business#US"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#astronauts">
+    <ex:return_to rdf:resource="https://www.bbc.com/news/business#drink"/>
+    <ex:leave_in rdf:resource="https://www.bbc.com/news/business#space"/>
+    <ex:leave_for rdf:resource="https://www.bbc.com/news/business#months"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#reign">
+    <ex:face rdf:resource="https://www.bbc.com/news/business#challenge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#responders">
+    <ex:drive_through rdf:resource="https://www.bbc.com/news/business#fire"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#sides">
+    <ex:disagree_over rdf:resource="https://www.bbc.com/news/business#amount"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Explorers">
+    <ex:release_on rdf:resource="https://www.bbc.com/news/business#August"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#restoration">
+    <ex:ease rdf:resource="https://www.bbc.com/news/business#pressure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#plants">
+    <ex:rank_on rdf:resource="https://www.bbc.com/news/business#list"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Khalil">
+    <ex:arrest_for rdf:resource="https://www.bbc.com/news/business#role"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Credit">
+    <ex:see rdf:resource="https://www.bbc.com/news/business#episodes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#debris">
+    <ex:fly_past rdf:resource="https://www.bbc.com/news/business#windows"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Vietnam">
+    <ex:golf rdf:resource="https://www.bbc.com/news/business#way"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#paint">
+    <ex:daub_over rdf:resource="https://www.bbc.com/news/business#building"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#amount">
+    <ex:vary_across rdf:resource="https://www.bbc.com/news/business#Scotland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#US">
+    <ex:bring_into rdf:resource="https://www.bbc.com/news/business#country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Vance">
+    <ex:boo_at rdf:resource="https://www.bbc.com/news/business#Center"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#state">
+    <ex:tell rdf:resource="https://www.bbc.com/news/business#Court"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#conglomerate">
+    <ex:restore rdf:resource="https://www.bbc.com/news/business#supply"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#Donohoe">
+    <ex:make rdf:resource="https://www.bbc.com/news/business#assurances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/business#earthquake">
+    <ex:hit_on rdf:resource="https://www.bbc.com/news/business#search"/>
+  </rdf:Description>
+</rdf:RDF>

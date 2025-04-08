@@ -4,7 +4,7 @@ This project is part of the Web datamining &amp; semantics course.
 
 # RESTE A FAIRE
 
-- finir Part 2: 6.3 Une réflexion sur l’impact de l’enrichissement des données (data augmentation) sur la qualité des embeddings
+- finir Part 2: ajouter toute la partie WITH data augmentation
 
 - ajouter un autre modèle dans la Part 2
 

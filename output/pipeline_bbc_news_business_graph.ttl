@@ -1,452 +1,493 @@
 @prefix ex: <https://www.bbc.com/news/business> .
 
-ex:Administration ex:contact_for ex:comment .
+ex:AI ex:steal ex:job .
 
-ex:Albanese ex:say_on ex:Thursday .
+ex:Australians ex:speak_for ex:ourselves ;
+    ex:speak_on ex:trade .
 
-ex:Attention ex:turn_to ex:market .
+ex:Author ex:shoot_after ex:Lauren .
 
-ex:Bangakya ex:tell ex:agency .
+ex:Barclays ex:cut_on ex:mortgages ;
+    ex:cut_to ex: ;
+    ex:settle_to ex: .
 
-ex:Barclaysbank ex:see ex:fall .
+ex:Bessent ex:tell ex:reporters ;
+    ex:tell_after ex:announcement .
 
-ex:Beijing ex:place ex:controls ;
-    ex:place_in ex:production ;
-    ex:place_on ex:elements .
+ex:Bonds ex:see_as ex:assets .
 
-ex:Boulos ex:expand_on ex:proposals .
+ex:Britain ex:sell_to ex:America .
 
-ex:Butin ex:import_from ex:territory .
+ex:CCTV ex:show ex:raid .
 
-ex:Christina ex:say_as ex:tears .
+ex:Calls ex:suffer ex:hit .
 
-ex:Coffin ex:make ex:journey ;
-    ex:make_to ex:waters .
+ex:Channel ex:answer ex:questions .
 
-ex:Commission ex:deal_with ex:matters .
+ex:Chu ex:look_despite ex:jump .
 
-ex:Credit ex:see ex:website .
+ex:Colombia ex:emerge_as ex:exporter .
 
-ex:Daimler ex:slip_by ex:5 .
+ex:Credit ex:see ex:episodes .
 
-ex:Delhi ex:sign ex:agreement .
+ex:Davison ex:tell ex:colleagues .
 
-ex:Department ex:say_On ex:Tuesday .
+ex:Democrats ex:paint ex:picture .
 
-ex:Erdogan ex:rise_from ex:beginnings .
+ex:Dharod ex:man_for ex:decades .
 
-ex:F-150s ex:have ex:engines ;
-    ex:have_For ex:example .
+ex:Facebook ex:attempt ex:ruin .
 
-ex:FTA ex:talk_with ex:range .
+ex:Fleury ex:explain ex:shifts .
 
-ex:FTSE ex:drop_with ex:companies .
+ex:Hassett ex:note_On ex:China .
 
-ex:Farrell ex:tell ex:Corporation .
+ex:Hawley ex:demand_At ex:hearing ;
+    ex:open ex:hearing ;
+    ex:say_During ex:hearing .
 
-ex:Fear ex:run_in ex:Windsor .
+ex:He ex:talk_about ex:benefit ;
+    ex:talk_in ex:order .
 
-ex:France ex:collate_at ex: ;
-    ex:collate_in ex:research .
+ex:I ex:have ex:CNBC ;
+    ex:have_in ex:corner ;
+    ex:jump_to ex:feet ;
+    ex:report_from ex:trade ;
+    ex:sign ex:tariffs .
 
-ex:He ex:convene ex:meeting ;
-    ex:have ex:interests ;
-    ex:have_in ex:Africa .
+ex:It ex:boost ex:growth ;
+    ex:have ex:potential ;
+    ex:take_for ex:aides .
 
-ex:House ex:fire ex:chief ;
-    ex:publish ex:methodology .
+ex:Karelina ex:release_in ex:return .
 
-ex:Hundreds ex:hold_at ex:moment ;
-    ex:hold_in ex:pensions .
+ex:Kenia ex:tell ex:BBC .
 
-ex:I ex:speak_to ex:manufacturer .
+ex:Leavitt ex:tell ex:crowd .
 
-ex:IMF ex:look_into ex:implications .
+ex:Leyen ex:say_In ex:statement .
 
-ex:Investors ex:buy_into ex:assets .
+ex:Love ex:tell ex:me .
 
-ex:Islands ex:visit_in ex:decade .
+ex:McDonald ex:expect ex:cuts .
 
-ex:It ex:lose ex:quotas ;
-    ex:make ex: ;
-    ex:sell ex:goods .
+ex:Meta ex:capitulate_to ex:demands ;
+    ex:clarify_to ex:BBC ;
+    ex:dispute ex:statements ;
+    ex:expand ex:restrictions ;
+    ex:generate ex:revenue ;
+    ex:generate_from ex:advertisers ;
+    ex:say_at ex:time ;
+    ex:stop_at ex:nothing ;
+    ex:use ex:books ;
+    ex:use_by ex:Adams .
 
-ex:Kumar ex:die_at ex:threat .
+ex:Metamaintainsit ex:unpublishe ex:page .
 
-ex:Lammy ex:speak_to ex:reporters .
+ex:Moments ex:come_in ex:career .
 
-ex:Leyen ex:claim_including ex:strength .
+ex:Moon ex:tell ex:Live .
 
-ex:Macron ex:call ex:them .
+ex:Morning ex:break_in ex:DC .
 
-ex:Markets ex:mix_as ex:brace .
+ex:Most ex:come_from ex:customers .
 
-ex:Most ex:happen_through ex:America .
+ex:People ex:view ex:treasuries ;
+    ex:view_as ex:place .
 
-ex:Nanji ex:predict_with ex:tariff .
+ex:Perring ex:remember ex:announcement .
 
-ex:Nasdaq ex:sink_by ex: .
+ex:Roddick ex:talk_about ex:success ;
+    ex:talk_in ex:interview .
 
-ex:Poilievre ex:call_for ex:removal .
+ex:Schumer ex:accuse ex:Trump .
 
-ex:Shares ex:nosedive_in ex:response .
+ex:Tesco ex:reference ex:war ;
+    ex:reference_In ex:results .
 
-ex:She ex:have ex:children .
+ex:That ex:bode_for ex:inflation ;
+    ex:have ex:repercussions ;
+    ex:pose ex:problem ;
+    ex:pose_as ex:interest .
 
-ex:Spain ex:export ex:lot ;
-    ex:export_alongside ex:tonnes ;
-    ex:export_to ex:US .
+ex:They ex:answer_at ex:top ;
+    ex:apply_to ex:EU ;
+    ex:deride ex:report ;
+    ex:risk ex:dent ;
+    ex:risk_to ex:sales ;
+    ex:service_through ex:stores ;
+    ex:threaten_with ex:50000 .
 
-ex:That ex:have_at ex:time ;
-    ex:impact ex:consumers .
+ex:Those ex:see_as ex:investments .
 
-ex:This ex:take ex:time ;
-    ex:turn_into ex:crash .
+ex:Union ex:announce ex:pause ;
+    ex:announce_into ex:bloc .
 
-ex:Union ex:vow ex:response .
+ex:Vardy ex:pay_in ex:costs .
 
-ex:Vaishnav ex:tell ex:BBC .
+ex:Watch ex:present ex:Budget .
 
-ex:Vehicles ex:face ex:taxes .
+ex:We ex:bring ex:insight ;
+    ex:bring_into ex:measures ;
+    ex:democratise ex:market ;
+    ex:hear_from ex:seller ;
+    ex:negotiate_for ex:decades ;
+    ex:negotiate_with ex:China ;
+    ex:talk_to ex:academic ;
+    ex:visit ex:farm .
 
-ex:Washington ex:bring ex:tariffs .
+ex:Williams ex:allege_During ex:testimony ;
+    ex:release ex:memoir ;
+    ex:release_In ex:March ;
+    ex:say_At ex:hearing ;
+    ex:say_during ex:testimony ;
+    ex:say_from ex:experience ;
+    ex:tell ex:lawmakers .
 
-ex:We ex:have ex:announcements ;
-    ex:have_in ex:moments ;
-    ex:review ex:proposal .
+ex:Woman ex:jail ex:donation .
 
-ex:Weve ex:get ex:response ;
-    ex:get_on ex:Chinas .
+ex:You ex:follow ex:top ;
+    ex:read ex:more ;
+    ex:think_as ex:repayment ;
+    ex:think_of ex:sum .
 
-ex:You ex:hear_about ex:agreement .
+ex:Zuckerberg ex:testify_at ex:which ;
+    ex:turn ex:andtoldfamilies .
 
-ex:administration ex:rule ex:country ;
-    ex:want ex:cuts .
+ex:all ex:come_from ex:cities ;
+    ex:take_on ex:her .
 
-ex:barriers ex:vary_from ex:country ;
-    ex:vary_to ex:country .
+ex:anyone ex:think_as ex:candidate ;
+    ex:think_of ex:him .
 
-ex:bloc ex:target ex:services .
+ex:anything ex:change_after ex:book .
 
-ex:broker ex:say_to ex:me .
+ex:attack ex:stiffen ex:spine .
 
-ex:businesses ex:face ex:period .
+ex:balance ex:tilt_in ex:favour .
 
-ex:calculations ex:base_on ex:deficit .
+ex:blueprint ex:set ex:vision ;
+    ex:set_from ex:aerospace .
 
-ex:channel ex:start_on ex:Monday .
+ex:bonds ex:catch ex:cold .
 
-ex:company ex:halt_at ex:plant .
+ex:boxes ex:show ex:sign ;
+    ex:show_Behind ex:him .
 
-ex:conflict ex:test ex:act .
+ex:childhood ex:survive ex:smartphone .
 
-ex:declines ex:add_to ex:falls .
+ex:commerce ex:grow_at ex: .
 
-ex:differential ex:lead ex:re ;
-    ex:lead_to ex:export .
+ex:companies ex:use_in ex:funds .
 
-ex:economy ex:navigate ex:tremors .
+ex:company ex:tell_On ex:Wednesday ;
+    ex:undermine_in ex:order ;
+    ex:work_in ex:glove ;
+    ex:work_on ex:censorship ;
+    ex:work_with ex:Beijing,
+        ex:China .
 
-ex:editor ex:throw_in ex:air .
+ex:cries ex:speak_about ex:incident .
 
-ex:evidence ex:battle ex:rebels .
+ex:customer ex:vanish_because ex:convenience .
 
-ex:figures ex:base_on ex:tariffs .
+ex:deals ex:complete_in ex:days .
 
-ex:firm ex:tell ex:me .
+ex:deliveries ex:buck ex:trend .
 
-ex:futures ex:point_to ex:fall .
+ex:demand ex:fall_over ex:fears .
 
-ex:giant ex:head_into ex:future .
+ex:drama ex:begin_in ex:days .
 
-ex:government ex:adopt_Unlike ex:Canada ;
-    ex:need ex:plan ;
-    ex:use ex:announcement .
+ex:exporters ex:face ex:charge .
 
-ex:group ex:broadcast_with ex:permission .
+ex:exports ex:link_to ex:goods .
 
-ex:handful ex:hit_in ex:addition .
+ex:firms ex:have ex:morning .
 
-ex:havent ex:see_in ex:decade .
+ex:form ex:involve_to ex:holder .
 
-ex:he ex:speak_on ex:Friday ;
-    ex:speak_to ex:counterparts ;
-    ex:tell ex:BBC ;
-    ex:work_on ex:minerals .
+ex:growers ex:suffer ex:scare .
 
-ex:head ex:win ex:Woman .
+ex:he ex:address_outside ex:House ;
+    ex:adopt_in ex:pattern,
+        ex:posts ;
+    ex:adopt_on ex:that ;
+    ex:blame_for ex:pause ;
+    ex:express_over ex:week ;
+    ex:hit_with ex:tariffs ;
+    ex:inundate_with ex:communications ;
+    ex:lash_on ex:Monday ;
+    ex:tell ex:CNBC,
+        ex:reporters .
 
-ex:hes ex:lose_over ex:years ;
-    ex:lose_to ex:companies ;
-    ex:worry_with ex:bikes .
+ex:households ex:place_in ex:case .
 
-ex:hikes ex:result_in ex:growth .
+ex:index ex:soar_following ex:days ;
+    ex:soar_in ex:rally ;
+    ex:soar_since ex:2008 .
 
-ex:index ex:sink_on ex:Thursday .
+ex:industry ex:change_with ex:emphasis .
 
-ex:industries ex:see_as ex:vulnerable .
+ex:inspector ex:tell ex:BBC .
 
-ex:island ex:end_on ex:list ;
-    ex:find_on ex:list .
+ex:investors ex:look_During ex:times ;
+    ex:speculate_Against ex:backdrop ;
+    ex:take ex:money ;
+    ex:take_as ex:treasury ;
+    ex:view_as ex:investment .
 
-ex:islands ex:list_as ex:example .
+ex:levy ex:remain_in ex:place .
 
-ex:it ex:add_to ex:list,
-        ex:price ;
-    ex:buy_from ex:China,
-        ex:US ;
-    ex:come_to ex:China,
-        ex:goods,
-        ex:services ;
-    ex:deal_with ex:fallout ;
-    ex:impose_on ex:goodsfrom ;
-    ex:imposean_in ex:response ;
-    ex:manufacture_for ex:vehicles ;
-    ex:pause ex:production ;
-    ex:pause_at ex:plant ;
-    ex:put_on ex:list ;
-    ex:raise ex:questions ;
-    ex:shut_as ex:result ;
-    ex:steady_on ex:Friday ;
-    ex:sweep_over ex:ice ;
-    ex:wean_following ex:invasion ;
-    ex:wean_off ex:gas .
+ex:models ex:organise_in ex:end .
 
-ex:its ex:hit_with ex:tariff .
+ex:moments ex:face ex:days .
 
-ex:leverage ex:lie_in ex:services ;
-    ex:lie_like ex:banks .
+ex:negotiations ex:result_in ex:much .
 
-ex:minister ex:tell ex:BBC,
-        ex:reporters ;
-    ex:tell_on ex:Thursday .
+ex:officials ex:learn_as ex:brainer .
 
-ex:ministers ex:meet_in ex:Brussels .
+ex:one ex:happen_with ex:China .
 
-ex:move ex:ban ex:export .
+ex:organisations ex:make ex:pleas .
 
-ex:negotiations ex:carry_with ex:partners .
+ex:outsider ex:launch ex:run .
 
-ex:officials ex:describe_as ex:freeloaders .
+ex:pair ex:lock_in ex:battle .
 
-ex:outposts ex:end_on ex:list .
+ex:partners ex:leave_for ex:hours .
 
-ex:pandemic ex:hit_in ex:2020 .
+ex:people ex:draw_from ex:funds ;
+    ex:get_on ex:ladder ;
+    ex:stay_in ex:clusters .
 
-ex:people ex:venture_to ex:Island .
+ex:president ex:hit ex:China ;
+    ex:hit_with ex:tariffs ;
+    ex:mean_by ex:this ;
+    ex:roll_in ex:days .
 
-ex:phone ex:go_toBBCAfricacomfor ex:news .
+ex:process ex:matter_In ex:end .
 
-ex:players ex:invest_at ex:time .
+ex:rate ex:apply_to ex:Canada .
 
-ex:realities ex:throw ex:upopportunities ;
-    ex:throw_for ex:India .
+ex:reliance ex:diminish_over ex:decade .
 
-ex:regions ex:work_For ex:decades ;
-    ex:work_across ex:border .
+ex:reporter ex:jump_following ex:reversal .
 
-ex:reporter ex:fall_After ex:start .
+ex:reprieve ex:apply_to ex:EU .
 
-ex:rises ex:affect ex:pension .
+ex:retailer ex:give_to ex:BBC .
 
-ex:s ex:use_as ex:example .
+ex:robots ex:add ex:arms ;
+    ex:add_to ex:warehouse .
 
-ex:selling ex:continue_despite ex:investors .
+ex:secretary ex:take_to ex:Trump .
 
-ex:shares ex:plunge_by ex: .
+ex:sector ex:face ex:challenges ;
+    ex:face_around ex:sustainability .
 
-ex:sign ex:see_on ex:July ;
-    ex:see_outside ex:headquarters .
+ex:she ex:depart_in ex:2017 ;
+    ex:make_in ex:front ;
+    ex:make_on ex:Wednesday ;
+    ex:mention_in ex:public ;
+    ex:miss_with ex:grocers ;
+    ex:tell ex:members .
 
-ex:some ex:see ex:upsides .
+ex:shoppers ex:stay_as ex:rise .
 
-ex:steps ex:tie_to ex:concerns .
+ex:size ex:compare_to ex:economy .
 
-ex:talks ex:expedite_as ex:cracks .
+ex:some ex:have ex:upside .
 
-ex:they ex:divert_to ex:UK ;
-    ex:do_to ex:Trump ;
-    ex:see_as ex:coercion .
+ex:source ex:tell ex:BBC .
 
-ex:theyre ex:tell ex:factor ;
-    ex:tell_to ex:make .
+ex:store ex:sit_in ex:bylane .
 
-ex:value ex:equal_in ex:column .
+ex:successor ex:keep ex:much ;
+    ex:keep_in ex:place .
 
-ex:we ex:chart ex:history ;
-    ex:end_in ex:situation ;
-    ex:find ex:difference ;
-    ex:get ex:access ;
-    ex:see_in ex:markets .
+ex:survey ex:show ex: ;
+    ex:show_in ex:cities .
 
-ex:what ex:know_as ex:pension ;
-    ex:use_for ex:weeks .
+ex:swings ex:egg_by ex:risk .
 
-ex:who ex:meet_on ex:Wednesday ;
-    ex:meet_with ex:Trump ;
-    ex:serve_as ex:adviser ;
-    ex:serve_since ex:December ;
-    ex:speak_on ex:Thursday ;
-    ex:speak_to ex:BBC ;
-    ex:work_at ex:plant ;
-    ex:work_for ex:department,
+ex:taxes ex:mean_for ex:US .
+
+ex:themselves ex:lock_in ex:fight .
+
+ex:they ex:bleed_in ex:ways ;
+    ex:bleed_into ex:lives ;
+    ex:build_from ex:Liverpool ;
+    ex:buy ex:them ;
+    ex:commit_to ex:decision ;
+    ex:do ex:it,
+        ex:much ;
+    ex:face ex:dilemma ;
+    ex:pay ex:interest ;
+    ex:reduce ex:value .
+
+ex:titles ex:matter ex:Fight .
+
+ex:traders ex:breathe ex:sigh .
+
+ex:twins ex:run ex:firm .
+
+ex:updates ex:create ex:questions .
+
+ex:we ex:call_For ex:this ;
+    ex:call_on ex:expertise ;
+    ex:catch_in ex:crosswinds ;
+    ex:operate ex:services ;
+    ex:operate_in ex:China ;
+    ex:see_in ex:days .
+
+ex:what ex:happen_on ex:Thursday .
+
+ex:whistleblower ex:tell ex:senators ;
+    ex:tell_on ex:Wednesday .
+
+ex:who ex:areflinge_at ex:other ;
+    ex:cash_on ex:slump ;
+    ex:cash_over ex:week ;
+    ex:exist_for ex:decades ;
+    ex:fight_on ex:back ;
+    ex:fight_to ex:House ;
+    ex:have_as ex:trader ;
+    ex:join_as ex:employees ;
+    ex:run_beside ex:shop ;
+    ex:speak_against ex:giant ;
+    ex:stop_because ex:ease .
+
+ex:world ex:call ex:States ;
+    ex:react_to ex:tariff .
+
+ex:you ex:have ex:question ;
+    ex:share ex:yours .
+
+ex:Beijing ex:set_on ex:imports .
+
+ex:UK ex:keep_after ex:announcement .
+
+ex:books ex:take_without ex:permission .
+
+ex:games ex:spill_into ex:games .
+
+ex:it ex:end_in ex:failure ;
+    ex:make_for ex:her ;
+    ex:pause_for ex:days ;
+    ex:reveal ex:something ;
+    ex:warn_of ex:rise .
+
+ex:lot ex:happen_in ex:hours .
+
+ex:market ex:work_in ex:tandem .
+
+ex:markets ex:close_for ex:day,
+        ex:holiday ;
+    ex:rebound_across ex:continent ;
+    ex:shoot_like ex:rocket ;
+    ex:shoot_on ex:Wednesday .
+
+ex:measures ex:introduce_Under ex:plans ;
+    ex:introduce_in ex:phases .
+
+ex:response ex:continue_to ex:end .
+
+ex:shifts ex:lead_to ex:retailers ;
+    ex:lead_with ex:drop .
+
+ex:vision ex:bind_with ex:idea .
+
+ex:which ex:come_in ex:2010 ;
+    ex:come_into ex:India ;
+    ex:distort_for ex:shops ;
+    ex:keep_in ex:place ;
+    ex:lead_to ex:costs ;
+    ex:leapt_on ex:opening ;
+    ex:ship_to ex:toys .
+
+ex:America ex:correspondentanalyse ex:retreat ;
+    ex:correspondentanalyse_from ex:war ;
+    ex:look_for ex:that .
+
+ex:EU ex:approve ex:set ;
+    ex:approve_In ex:response ;
+    ex:put_against ex:US ;
+    ex:put_on ex:hold .
+
+ex:House ex:provide ex:clarity .
+
+ex:India ex:cut ex:rates .
+
+ex:Trump ex:abandon ex:board ;
+    ex:acknowledge_On ex:afternoon ;
+    ex:announce ex:pause ;
+    ex:haspause_For ex:nations ;
+    ex:impose ex:tariffs ;
+    ex:impose_In ex:term ;
+    ex:impose_across ex:tariff ;
+    ex:impose_on ex:China,
+        ex:UK ;
+    ex:insist_For ex:days ;
+    ex:lean_into ex:war ;
+    ex:make ex:series ;
+    ex:pause_for ex:days ;
+    ex:put_on ex:lot ;
+    ex:refer_to ex:yips ;
+    ex:say_on ex:Thursday,
+        ex:tariffs ;
+    ex:suggest_as ex:end .
+
+ex:testimony ex:divorce_from ex:reality .
+
+ex:that ex:happen_before ex:announcements ;
+    ex:mark ex:shattering ;
+    ex:sell_on ex:platform ;
+    ex:take ex:years ;
+    ex:trade_in ex:markets .
+
+ex:this ex:adapt_by ex:Century ;
+    ex:look_like ex:fight ;
+    ex:look_than ex:fight ;
+    ex:set_From ex:May .
+
+ex:US ex:believe_in ex:trade ;
+    ex:head_for ex:recession ;
+    ex:import_from ex:China ;
+    ex:make ex:2bn ;
+    ex:make_from ex:tariffs ;
+    ex:put_over ex:those ;
+    ex:sell_to ex:countries .
+
+ex:announcement ex:set ex:tariff ;
+    ex:set_on ex:imports .
+
+ex:much ex:happen_in ex:weeks .
+
+ex:pause ex:leave ex:tariff ;
+    ex:leave_in ex:place .
+
+ex:trade ex:add_to ex:585bn .
+
+ex:war ex:break ex:mould .
+
+ex: ex:do_after ex:years ;
+    ex:do_in ex:India ;
+    ex:shut_in ex:city,
         ex:years .
 
-ex:winners ex:affect ex:me .
+ex:BBC ex:speak_to ex:retailers .
 
-ex:you ex:divide ex:number ;
-    ex:divide_by ex:two ;
-    ex:have ex:tariff ;
-    ex:price_in ex:collapse ;
-    ex:scan_across ex:chart ;
-    ex:take_into ex:account .
+ex:tariffs ex:put_at ex:bank ;
+    ex:replace ex:list ;
+    ex:take ex:us ;
+    ex:take_by ex:surprise .
 
-ex:Brussels ex:cut ex:tariffs .
-
-ex:EU ex:bite ex:bark ;
-    ex:buy ex:gas ;
-    ex:have ex:room ;
-    ex:offer ex:US,
-        ex:president ;
-    ex:offer_after ex:that ;
-    ex:offer_in ex:negotiation ;
-    ex:respond_to ex:tariffs .
-
-ex:Europe ex:hope_for ex:deal .
-
-ex:India ex:expand_beyond ex:US ;
-    ex:export ex:91bn ;
-    ex:export_in ex:goods ;
-    ex:export_to ex:US ;
-    ex:fare_In ex:terms ;
-    ex:fare_at ex: ;
-    ex:reduce ex:tariffs ;
-    ex:reduce_on ex:goods ;
-    ex:show ex:appetite ;
-    ex:show_In ex:couple .
-
-ex:UK ex:engage_in ex:discussions ;
-    ex:isworke_at ex:paceto .
-
-ex:leaders ex:criticise_as ex:der ;
-    ex:propose ex:solutions ;
-    ex:propose_On ex:trail ;
-    ex:react_to ex:announcement ;
-    ex:strike_with ex:presidentnow .
-
-ex:market ex:lose ex: ;
-    ex:lose_By ex:comparison ;
-    ex:lose_In ex:1929 ;
-    ex:lose_On ex:October ;
-    ex:lose_in ex:day,
-        ex:days ;
-    ex:stand_at ex: .
-
-ex:markets ex:flood_from ex:countries ;
-    ex:have ex:day .
-
-ex:number ex:fall_by ex:second .
-
-ex:president ex:agree_on ex:path .
-
-ex:price ex:slump_from ex:67 ;
-    ex:slump_to ex:65 .
-
-ex:that ex:believe_in ex:trade ;
-    ex:break ex:promise ;
-    ex:build_in ex:Canada ;
-    ex:build_with ex:parts ;
-    ex:come_as ex:bit ;
-    ex:distribute_in ex:Africa ;
-    ex:echo_across ex:Windsor ;
-    ex:emerge_as ex:dumping ;
-    ex:expose_to ex:tariffs ;
-    ex:get_around ex:situation ;
-    ex:lead_to ex:war ;
-    ex:make_with ex:components ;
-    ex:plague_for ex:years ;
-    ex:produce_in ex:compliance ;
-    ex:use_for ex:purposes .
-
-ex:this ex:qualify_as ex:crash .
-
-ex:which ex:account_for ex: ;
-    ex:appear_in ex:column ;
-    ex:measure_against ex:peers ;
-    ex:open_at ex:BST .
-
-ex:Trump ex:announce ex:tariffs ;
-    ex:deal ex:blow ;
-    ex:drop_since ex:2020 ;
-    ex:impose ex:tariffs ;
-    ex:impose_on ex:China ;
-    ex:raise ex:tariffs ;
-    ex:slap ex:tariffs ;
-    ex:speak_on ex:One ;
-    ex:speak_to ex:reporters ;
-    ex:tell ex:reporters ;
-    ex:unveil ex:scheme ;
-    ex:unveil_in ex:retaliation ;
-    ex:unveil_on ex:Wednesday .
-
-ex:announcement ex:affect ex:workers ;
-    ex:affect_in ex:countries ;
-    ex:trigger_on ex:Thursday ;
-    ex:trigger_since ex:2020 .
-
-ex:companies ex:engage_in ex:cooperation .
-
-ex:countries ex:bring ex:measures ;
-    ex:expose_at ex:which ;
-    ex:expose_in ex:terms ;
-    ex:expose_to ex:US .
-
-ex:crash ex:use_over ex:decades .
-
-ex:Canada ex:apply ex:tariffs ;
-    ex:apply_Unlike ex:US ;
-    ex:hit_with ex:tariffs ;
-    ex:slap ex:tariff ;
-    ex:slap_Like ex:US ;
-    ex:stand_for ex:itself .
-
-ex:country ex:sell ex:all .
-
-ex:plant ex:shut_like ex:Stellantis .
-
-ex:China ex:file_with ex:Organization ;
-    ex:hit_against ex:tariffs ;
-    ex:hit_at ex:taxes ;
-    ex:hit_with ex:tariff,
-        ex:tariffs ;
-    ex:impose_from ex:April ;
-    ex:impose_on ex:goods ;
-    ex:oppose ex:this .
-
-ex:response ex:coordinate_at ex:HQ .
-
-ex:goods ex:hit ex:hike .
-
-ex:tariff ex:apply_to ex:components ;
-    ex:impose_on ex:Island ;
-    ex:reduce_For ex:Canada ;
-    ex:reduce_for ex:cars .
-
-ex: ex:export_to ex:US ;
-    ex:get_to ex:front .
-
-ex:US ex:buy_from ex:China ;
-    ex:sell_to ex:EU .
-
-ex:tariffs ex:apply_in ex:sector ;
-    ex:base_on ex:data ;
-    ex:frustrate ex:leaders ;
-    ex:put ex:world ;
-    ex:put_on ex:brink ;
-    ex:remain_as ex:Europe ;
-    ex:represent_at ex:time ;
-    ex:spark ex:off ;
-    ex:spark_on ex:Wednesday ;
-    ex:trigger ex:slump ;
-    ex:trigger_on ex:Thursday .
+ex:China ex:import_from ex:America ;
+    ex:produce ex: ;
+    ex:retaliate_against ex:tyranny ;
+    ex:single_for ex:treatment ;
+    ex:surpass ex:US ;
+    ex:surpass_Within ex:few ;
+    ex:take ex:offer .
 

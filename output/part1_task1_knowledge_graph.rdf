@@ -3,13 +3,13 @@
    xmlns:ex="http://example.org/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://example.org/Jobs">
-    <ex:found rdf:resource="http://example.org/Apple"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Pichai">
     <ex:ceo_of rdf:resource="http://example.org/Google"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Musk">
     <ex:work_at rdf:resource="http://example.org/SpaceX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Jobs">
+    <ex:found rdf:resource="http://example.org/Apple"/>
   </rdf:Description>
 </rdf:RDF>

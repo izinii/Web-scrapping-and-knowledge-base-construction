@@ -26,6 +26,8 @@ ex:Economicshas ex:calculate ex:tariff .
 
 ex:Flight ex:head_to ex:Airport .
 
+ex:Garcia ex:deport_to ex:Salvador .
+
 ex:Group ex:own ex:labels ;
     ex:provide_with ex:platform ;
     ex:say_on ex:Thursday .
@@ -252,6 +254,10 @@ ex:world ex:focusse_in ex:March ;
 ex:worries ex:spread_By ex:Wednesday ;
     ex:spread_to ex:market .
 
+ex:you ex:have ex:tendency ;
+    ex:have_In ex:environment ;
+    ex:look_at ex:What .
+
 ex:EU ex:face_as ex:UK .
 
 ex:India ex:ban ex:imports ;
@@ -345,10 +351,6 @@ ex:which ex:account_for ex: ;
 
 ex:wing ex:bump_by ex:jet .
 
-ex:you ex:have ex:tendency ;
-    ex:have_In ex:environment ;
-    ex:look_at ex:What .
-
 ex:America ex:have_with ex:Canada .
 
 ex:US ex:erect ex:wall ;
@@ -386,8 +388,7 @@ ex:Airport ex:say_in ex:statement .
 ex:tariff ex:incentivise ex:companies ;
     ex:plunge_into ex:recession .
 
-ex:tariffs ex:affect ex:you ;
-    ex:remain_in ex:place .
+ex:tariffs ex:remain_in ex:place .
 
 ex:pause ex:apply_to ex:some ;
     ex:change_to ex:which ;

@@ -49,10 +49,6 @@
     <ex:shift_to rdf:resource="https://www.bbc.com/news/businessstrategies"/>
     <ex:shift_in rdf:resource="https://www.bbc.com/news/business1960s"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessambassador">
-    <ex:back_as rdf:resource="https://www.bbc.com/news/businessstate"/>
-    <ex:back_despite rdf:resource="https://www.bbc.com/news/businessthreats"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessimports">
     <ex:shrink_As rdf:resource="https://www.bbc.com/news/businessresult"/>
     <ex:shrink_from rdf:resource="https://www.bbc.com/news/business"/>
@@ -233,6 +229,16 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessexposure">
     <ex:work_in rdf:resource="https://www.bbc.com/news/businessfavour"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesswe">
+    <ex:do_with rdf:resource="https://www.bbc.com/news/businessApple"/>
+    <ex:grow_at rdf:resource="https://www.bbc.com/news/business"/>
+    <ex:cut_on rdf:resource="https://www.bbc.com/news/businessgoods"/>
+    <ex:showcase rdf:resource="https://www.bbc.com/news/businesscontent"/>
+    <ex:apologize_to rdf:resource="https://www.bbc.com/news/businesscustomers"/>
+    <ex:apologize_for rdf:resource="https://www.bbc.com/news/businessexperience"/>
+    <ex:know_about rdf:resource="https://www.bbc.com/news/businesscrash"/>
+    <ex:buy_for rdf:resource="https://www.bbc.com/news/businessbillion"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businesslicensing">
     <ex:end_in rdf:resource="https://www.bbc.com/news/business2001"/>
@@ -417,15 +423,6 @@
   <rdf:Description rdf:about="https://www.bbc.com/news/businessCredit">
     <ex:see rdf:resource="https://www.bbc.com/news/businessepisodes"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesswe">
-    <ex:do_with rdf:resource="https://www.bbc.com/news/businessApple"/>
-    <ex:grow_at rdf:resource="https://www.bbc.com/news/business"/>
-    <ex:cut_on rdf:resource="https://www.bbc.com/news/businessgoods"/>
-    <ex:showcase rdf:resource="https://www.bbc.com/news/businesscontent"/>
-    <ex:apologize_to rdf:resource="https://www.bbc.com/news/businesscustomers"/>
-    <ex:apologize_for rdf:resource="https://www.bbc.com/news/businessexperience"/>
-    <ex:buy_for rdf:resource="https://www.bbc.com/news/businessbillion"/>
-  </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessAirport">
     <ex:say_in rdf:resource="https://www.bbc.com/news/businessstatement"/>
   </rdf:Description>
@@ -441,9 +438,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessscheme">
     <ex:help_into rdf:resource="https://www.bbc.com/news/businessfashion"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessHoekstra">
-    <ex:confirm_as rdf:resource="https://www.bbc.com/news/businessambassador"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessliberalisation">
     <ex:reverse_since rdf:resource="https://www.bbc.com/news/business2018"/>

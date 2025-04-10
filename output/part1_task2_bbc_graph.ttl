@@ -36,8 +36,6 @@ ex:He ex:emphasise ex:need ;
     ex:leave ex:company ;
     ex:leave_in ex:2018 .
 
-ex:Hoekstra ex:confirm_as ex:ambassador .
-
 ex:It ex:have ex:moment .
 
 ex:Karelina ex:release_in ex:return .
@@ -236,6 +234,7 @@ ex:we ex:apologize_for ex:experience ;
     ex:cut_on ex:goods ;
     ex:do_with ex:Apple ;
     ex:grow_at ex: ;
+    ex:know_about ex:crash ;
     ex:showcase ex:content .
 
 ex:what ex:happen_in ex:countries ;
@@ -298,9 +297,6 @@ ex:UK ex:benefit_in ex:ways ;
     ex:hit_with ex:tariffs .
 
 ex:Vietnam ex:pay ex:rate .
-
-ex:ambassador ex:back_as ex:state ;
-    ex:back_despite ex:threats .
 
 ex:countries ex:scramble_for ex:partners .
 

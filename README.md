@@ -4,10 +4,6 @@ This project is part of the Web datamining &amp; semantics course.
 
 # RESTE A FAIRE
 
-- finir Part 2: ajouter la partie comparaison 
+- commenter/nettoyer bien le code, le mettre au propre: pour notebook Part 1 et notebook Part 2
 
-- ajouter un autre modèle dans la Part 2
-
-- commenter/nettoyer bien le code, le mettre au propre
-
-- rapport avec la nouvelle Part 2
+- faire un meilleur README

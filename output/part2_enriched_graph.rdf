@@ -3,8 +3,8 @@
    xmlns:dcterms="http://purl.org/dc/terms/"
    xmlns:ex="https://www.bbc.com/news/business"
    xmlns:foaf="http://xmlns.com/foaf/0.1/"
-   xmlns:ns1="http://www.w3.org/2007/05/powder-s#"
-   xmlns:ns2="http://dbpedia.org/ontology/"
+   xmlns:ns1="http://dbpedia.org/ontology/"
+   xmlns:ns2="http://www.w3.org/2007/05/powder-s#"
    xmlns:ns3="http://dbpedia.org/property/"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:prov="http://www.w3.org/ns/prov#"
@@ -12,70 +12,143 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessbarriers">
-    <ex:vary_from rdf:resource="https://www.bbc.com/news/businesscountry"/>
-    <ex:vary_to rdf:resource="https://www.bbc.com/news/businesscountry"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/president">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Politician"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/سیاستدان"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/July">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMonths"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CalendarMonth115209413"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Leyen">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/House_of_Leyen"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/House_of_Leyen"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_surname"/>
-    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Leyen?oldid=1052758494&amp;ns=0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/reporters">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Beijing">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Brussels">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/City"/>
+    <rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/House">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/plant">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Eukaryote"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/خلوی_مادہ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/country">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/آبادی_والی_جگہ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Administration">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/President_of_the_United_States"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Engineering_administration"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Master_of_Business_Administration"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Master_of_Public_Administration"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Military_administration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessmarket">
+    <ex:lose_On rdf:resource="https://www.bbc.com/news/businessOctober"/>
+    <ex:lose rdf:resource="https://www.bbc.com/news/business"/>
+    <ex:lose_in rdf:resource="https://www.bbc.com/news/businessday"/>
+    <ex:lose_in rdf:resource="https://www.bbc.com/news/businessdays"/>
+    <ex:lose_In rdf:resource="https://www.bbc.com/news/business1929"/>
+    <ex:lose_By rdf:resource="https://www.bbc.com/news/businesscomparison"/>
+    <ex:stand_at rdf:resource="https://www.bbc.com/news/business"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessthat">
+    <ex:use_for rdf:resource="https://www.bbc.com/news/businesspurposes"/>
+    <ex:believe_in rdf:resource="https://www.bbc.com/news/businesstrade"/>
+    <ex:get_around rdf:resource="https://www.bbc.com/news/businesssituation"/>
+    <ex:expose_to rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:echo_across rdf:resource="https://www.bbc.com/news/businessWindsor"/>
+    <ex:make_with rdf:resource="https://www.bbc.com/news/businesscomponents"/>
+    <ex:produce_in rdf:resource="https://www.bbc.com/news/businesscompliance"/>
+    <ex:build_in rdf:resource="https://www.bbc.com/news/businessCanada"/>
+    <ex:build_with rdf:resource="https://www.bbc.com/news/businessparts"/>
+    <ex:plague_for rdf:resource="https://www.bbc.com/news/businessyears"/>
+    <ex:distribute_in rdf:resource="https://www.bbc.com/news/businessAfrica"/>
+    <ex:come_as rdf:resource="https://www.bbc.com/news/businessbit"/>
+    <ex:break rdf:resource="https://www.bbc.com/news/businesspromise"/>
+    <ex:lead_to rdf:resource="https://www.bbc.com/news/businesswar"/>
+    <ex:emerge_as rdf:resource="https://www.bbc.com/news/businessdumping"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Fear">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Building"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicGenre"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Home_construction"/>
-    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/103_Hanover.jpg"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Album106591815"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artifact100021939"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Instrumentality103575240"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Medium106254669"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesstariffs">
-    <ex:spark_on rdf:resource="https://www.bbc.com/news/businessWednesday"/>
-    <ex:spark rdf:resource="https://www.bbc.com/news/businessoff"/>
-    <ex:trigger rdf:resource="https://www.bbc.com/news/businessslump"/>
-    <ex:trigger_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
-    <ex:represent_at rdf:resource="https://www.bbc.com/news/businesstime"/>
-    <ex:base_on rdf:resource="https://www.bbc.com/news/businessdata"/>
-    <ex:frustrate rdf:resource="https://www.bbc.com/news/businessleaders"/>
-    <ex:apply_in rdf:resource="https://www.bbc.com/news/businesssector"/>
-    <ex:put rdf:resource="https://www.bbc.com/news/businessworld"/>
-    <ex:put_on rdf:resource="https://www.bbc.com/news/businessbrink"/>
-    <ex:remain_as rdf:resource="https://www.bbc.com/news/businessEurope"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessnumber">
-    <ex:fall_by rdf:resource="https://www.bbc.com/news/businesssecond"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/minister">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/editor">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Politician"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/سیاستدان"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith"/>
+    <owl:equivalentProperty rdf:resource="http://www.wikidata.org/entity/P98"/>
+    <owl:equivalentProperty rdf:resource="https://dblp.org/rdf/schema-2020-07-01#editedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/conflict">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/MilitaryConflict"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+    <ns2:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Union">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Union_City_(disambiguation)"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Union_Party_(disambiguation)"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Union_Station_(disambiguation)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Puya_(band)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/This">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/+_(Ed_Sheeran_album)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Megan_McKenna"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/This,_Ardennes"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/This_(The_Motels_album)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/This_(The_X-Files)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Investors">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:People_in_finance_by_occupation"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Investment"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Businesspeople"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/border">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary"/>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Area"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Farrell">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Pharrell_Williams"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Monsignor_Farrell_High_School"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Luis_Farell"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Maersk"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Farell_Duclair"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/world">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Shares">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Share_(finance)"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Share_(finance)"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_plural"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Shares?oldid=877051332&amp;ns=0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/America">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Pp-protected"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Thursday">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/October">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -84,29 +157,296 @@
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/CalendarMonth115209413"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/India">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Most">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatCitiesAndTownsInTheCzechRepublic"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatSocialistPlannedCities"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/City108524735"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/District108552138"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessEU">
+    <ex:bite rdf:resource="https://www.bbc.com/news/businessbark"/>
+    <ex:have rdf:resource="https://www.bbc.com/news/businessroom"/>
+    <ex:buy rdf:resource="https://www.bbc.com/news/businessgas"/>
+    <ex:offer rdf:resource="https://www.bbc.com/news/businessUS"/>
+    <ex:offer rdf:resource="https://www.bbc.com/news/businesspresident"/>
+    <ex:offer_in rdf:resource="https://www.bbc.com/news/businessnegotiation"/>
+    <ex:offer_after rdf:resource="https://www.bbc.com/news/businessthat"/>
+    <ex:respond_to rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/years">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/SoccerPlayer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/December">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMonths"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicalWork"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Hundreds">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Hundred_(disambiguation)"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Hundred_(disambiguation)"/>
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Hundreds?oldid=928318258&amp;ns=0"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Hundreds"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Washington">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Universities"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Washington_(state)"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Washington"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Friday">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/July">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMonths"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CalendarMonth115209413"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessrealities">
+    <ex:throw rdf:resource="https://www.bbc.com/news/businessupopportunities"/>
+    <ex:throw_for rdf:resource="https://www.bbc.com/news/businessIndia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/BBC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Wednesday">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/FTA">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abbreviation107091587"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Form106290637"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/That">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Food"/>
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/OE_thaet.png"/>
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare-Tomb-Stratford.jpg"/>
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:English_grammar"/>
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:English_words"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/company">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/goodrelations/v1#BusinessEntity"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/headquarters">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessHouse">
+    <ex:publish rdf:resource="https://www.bbc.com/news/businessmethodology"/>
+    <ex:fire rdf:resource="https://www.bbc.com/news/businesschief"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/territory">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/آبادی_والی_جگہ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/government">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Island"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/comment">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:equivalentProperty rdf:resource="http://schema.org/comment"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vehicles">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Artificial_objects"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Manufactured_goods"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Transport"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/department">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/GovernmentalAdministrativeRegion"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/حکومتی_انتظامی_علاقہ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Department">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Department_(film)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Departments_of_Colombia"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Departments_of_France"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Department_store"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Departmentalization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/I">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatLatinLetters"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatVowelLetters"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artifact100021939"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/IMF">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/University"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/International_Monetary_Fund"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/International_Monetary_Fund"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_initialism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Islands">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Coastal_and_oceanic_landforms"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Landforms"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Island"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Island"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesshe">
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessBBC"/>
+    <ex:work_on rdf:resource="https://www.bbc.com/news/businessminerals"/>
+    <ex:speak_to rdf:resource="https://www.bbc.com/news/businesscounterparts"/>
+    <ex:speak_on rdf:resource="https://www.bbc.com/news/businessFriday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessKumar">
+    <ex:die_at rdf:resource="https://www.bbc.com/news/businessthreat"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/value">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
     <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-    <ns1:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
+    <ns2:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesschannel">
-    <ex:start_on rdf:resource="https://www.bbc.com/news/businessMonday"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessIndia">
+    <ex:fare_In rdf:resource="https://www.bbc.com/news/businessterms"/>
+    <ex:fare_at rdf:resource="https://www.bbc.com/news/business"/>
+    <ex:export rdf:resource="https://www.bbc.com/news/business91bn"/>
+    <ex:export_in rdf:resource="https://www.bbc.com/news/businessgoods"/>
+    <ex:export_to rdf:resource="https://www.bbc.com/news/businessUS"/>
+    <ex:expand_beyond rdf:resource="https://www.bbc.com/news/businessUS"/>
+    <ex:show_In rdf:resource="https://www.bbc.com/news/businesscouple"/>
+    <ex:show rdf:resource="https://www.bbc.com/news/businessappetite"/>
+    <ex:reduce rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:reduce_on rdf:resource="https://www.bbc.com/news/businessgoods"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/FTSE">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Fundamental_theorem_of_software_engineering"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/FTSE_100_Index"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/FTSE_Group"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Australian_Academy_of_Technological_Sciences_and_Engineering"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/FTSE/Athex_Large_Cap"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessWe">
+    <ex:have rdf:resource="https://www.bbc.com/news/businessannouncements"/>
+    <ex:have_in rdf:resource="https://www.bbc.com/news/businessmoments"/>
+    <ex:review rdf:resource="https://www.bbc.com/news/businessproposal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Administration">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/President_of_the_United_States"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Engineering_administration"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Master_of_Business_Administration"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Master_of_Public_Administration"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Military_administration"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessTrump">
+    <ex:impose rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:impose_on rdf:resource="https://www.bbc.com/news/businessChina"/>
+    <ex:raise rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:announce rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:speak_to rdf:resource="https://www.bbc.com/news/businessreporters"/>
+    <ex:speak_on rdf:resource="https://www.bbc.com/news/businessOne"/>
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessreporters"/>
+    <ex:drop_since rdf:resource="https://www.bbc.com/news/business2020"/>
+    <ex:unveil_on rdf:resource="https://www.bbc.com/news/businessWednesday"/>
+    <ex:unveil rdf:resource="https://www.bbc.com/news/businessscheme"/>
+    <ex:unveil_in rdf:resource="https://www.bbc.com/news/businessretaliation"/>
+    <ex:slap rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:deal rdf:resource="https://www.bbc.com/news/businessblow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/BST">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abbreviation107091587"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Form106290637"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/US">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/United_States"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_mentioned_in_a_hatnote"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_initialism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/UK">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_mentioned_in_a_hatnote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/65">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Year"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Chicken_65"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/1965"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/65_(number)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Attention">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Election"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Human_multitasking"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Selective_auditory_attention"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/67">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Year"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/67_Squadron_(disambiguation)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/67th_Regiment_(disambiguation)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Between_the_Eyes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessF-150s">
+    <ex:have_For rdf:resource="https://www.bbc.com/news/businessexample"/>
+    <ex:have rdf:resource="https://www.bbc.com/news/businessengines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/1929">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q577"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/TimePeriod"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Year"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/China">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/chart">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesstariff">
+    <ex:impose_on rdf:resource="https://www.bbc.com/news/businessIsland"/>
+    <ex:reduce_For rdf:resource="https://www.bbc.com/news/businessCanada"/>
+    <ex:reduce_for rdf:resource="https://www.bbc.com/news/businesscars"/>
+    <ex:apply_to rdf:resource="https://www.bbc.com/news/businesscomponents"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessit">
     <ex:imposean_in rdf:resource="https://www.bbc.com/news/businessresponse"/>
@@ -130,26 +470,46 @@
     <ex:wean_following rdf:resource="https://www.bbc.com/news/businessinvasion"/>
     <ex:deal_with rdf:resource="https://www.bbc.com/news/businessfallout"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Shares">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Share_(finance)"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Share_(finance)"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_plural"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
-    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Shares?oldid=877051332&amp;ns=0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/country">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/day">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/آبادی_والی_جگہ"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Settlement"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/comment">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Vaishnav">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Vaishnavism"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Vaishnavism"/>
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Vaishnav?oldid=1113562699&amp;ns=0"/>
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Vaishnav"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/services">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/second">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <owl:equivalentProperty rdf:resource="http://schema.org/comment"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Africa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/We">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMiddleEnglishPersonalPronouns"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatModernEnglishPersonalPronouns"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatOldEnglishPersonalPronouns"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessThis">
+    <ex:turn_into rdf:resource="https://www.bbc.com/news/businesscrash"/>
+    <ex:take rdf:resource="https://www.bbc.com/news/businesstime"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/You">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatModernEnglishPersonalPronouns"/>
@@ -158,118 +518,29 @@
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/FunctionWord106291318"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Farrell">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Pharrell_Williams"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Monsignor_Farrell_High_School"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Luis_Farell"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Maersk"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Farell_Duclair"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessNasdaq">
+    <ex:sink_by rdf:resource="https://www.bbc.com/news/business"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessCanada">
-    <ex:hit_with rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:slap_Like rdf:resource="https://www.bbc.com/news/businessUS"/>
-    <ex:slap rdf:resource="https://www.bbc.com/news/businesstariff"/>
-    <ex:apply_Unlike rdf:resource="https://www.bbc.com/news/businessUS"/>
-    <ex:apply rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:stand_for rdf:resource="https://www.bbc.com/news/businessitself"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/list">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <owl:equivalentClass rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
+    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/channel">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/head">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith"/>
-    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Broadcaster"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/EducationalInstitution"/>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessresponse">
-    <ex:coordinate_at rdf:resource="https://www.bbc.com/news/businessHQ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesscountries">
-    <ex:bring rdf:resource="https://www.bbc.com/news/businessmeasures"/>
-    <ex:expose_at rdf:resource="https://www.bbc.com/news/businesswhich"/>
-    <ex:expose_to rdf:resource="https://www.bbc.com/news/businessUS"/>
-    <ex:expose_in rdf:resource="https://www.bbc.com/news/businessterms"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/manufacturer">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith"/>
-    <owl:equivalentProperty rdf:resource="http://www.wikidata.org/entity/P176"/>
-    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Organisation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessCredit">
-    <ex:see rdf:resource="https://www.bbc.com/news/businesswebsite"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/BST">
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abbreviation107091587"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Form106290637"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/day">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Settlement"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/website">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Work"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/کام"/>
-    <owl:equivalentClass rdf:resource="http://schema.org/WebSite"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessKumar">
-    <ex:die_at rdf:resource="https://www.bbc.com/news/businessthreat"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/December">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Trump">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMonths"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicalWork"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/territory">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/آبادی_والی_جگہ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/This">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/+_(Ed_Sheeran_album)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Megan_McKenna"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/This,_Ardennes"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/This_(The_Motels_album)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/This_(The_X-Files)"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/April">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMonths"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CalendarMonth115209413"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessVehicles">
-    <ex:face rdf:resource="https://www.bbc.com/news/businesstaxes"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessEU">
-    <ex:bite rdf:resource="https://www.bbc.com/news/businessbark"/>
-    <ex:have rdf:resource="https://www.bbc.com/news/businessroom"/>
-    <ex:buy rdf:resource="https://www.bbc.com/news/businessgas"/>
-    <ex:offer rdf:resource="https://www.bbc.com/news/businessUS"/>
-    <ex:offer rdf:resource="https://www.bbc.com/news/businesspresident"/>
-    <ex:offer_in rdf:resource="https://www.bbc.com/news/businessnegotiation"/>
-    <ex:offer_after rdf:resource="https://www.bbc.com/news/businessthat"/>
-    <ex:respond_to rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/IMF">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/University"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/International_Monetary_Fund"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/International_Monetary_Fund"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_initialism"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/The_Trump_Organization"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Major_Arcana"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Donald_Trump_(disambiguation)"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/Tuesday">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -278,77 +549,29 @@
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Are113613862"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessNasdaq">
-    <ex:sink_by rdf:resource="https://www.bbc.com/news/business"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessmarkets">
+    <ex:have rdf:resource="https://www.bbc.com/news/businessday"/>
+    <ex:flood_from rdf:resource="https://www.bbc.com/news/businesscountries"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/world">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/island">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/آبادی_والی_جگہ"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/differential">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/what">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/agency">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/شخص"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessFTA">
-    <ex:talk_with rdf:resource="https://www.bbc.com/news/businessrange"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/bit">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-    <ns1:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/strength">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/MilitaryConflict"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesspandemic">
-    <ex:hit_in rdf:resource="https://www.bbc.com/news/business2020"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Friday">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/She">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatModernEnglishPersonalPronouns"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/FunctionWord106291318"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/years">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/counterparts">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/SoccerPlayer"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Vaishnav">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Vaishnavism"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Vaishnavism"/>
-    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Vaishnav?oldid=1113562699&amp;ns=0"/>
-    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Vaishnav"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Corporation">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/PersonFunction"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Mercantilism"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/range">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/MeanOfTransportation"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/5">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -357,116 +580,185 @@
     <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Text_figures_256.svg"/>
     <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/ICS_Pennant_Five.svg"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/EU">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/European_Union"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/European_Union"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Category_redirect"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessF-150s">
-    <ex:have_For rdf:resource="https://www.bbc.com/news/businessexample"/>
-    <ex:have rdf:resource="https://www.bbc.com/news/businessengines"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/department">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/GovernmentalAdministrativeRegion"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/حکومتی_انتظامی_علاقہ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/result">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/MilitaryConflict"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Organization">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Credit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Organizational_theory"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Matrix_management"/>
-    <skos:narrower rdf:resource="http://api.nytimes.com/svc/semantic/v2/concept/name/nytd_des/Organizations,%20Societies%20and%20Clubs"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Daimler">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Mercedes-Benz_Mobility"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Daimler_Airway"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Daimler_Buses_North_America"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Daimler_Freeline"/>
+    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Finance"/>
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/2005private_sector_credit.png"/>
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/I'm_loving_it_--_debit_card_at_the_Guantanamo_McDonalds.jpg"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/company">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/House">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Building"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicGenre"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Home_construction"/>
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/103_Hanover.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessyou">
+    <ex:scan_across rdf:resource="https://www.bbc.com/news/businesschart"/>
+    <ex:divide rdf:resource="https://www.bbc.com/news/businessnumber"/>
+    <ex:divide_by rdf:resource="https://www.bbc.com/news/businesstwo"/>
+    <ex:have rdf:resource="https://www.bbc.com/news/businesstariff"/>
+    <ex:take_into rdf:resource="https://www.bbc.com/news/businessaccount"/>
+    <ex:price_in rdf:resource="https://www.bbc.com/news/businesscollapse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/website">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/goodrelations/v1#BusinessEntity"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Work"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/کام"/>
+    <owl:equivalentClass rdf:resource="http://schema.org/WebSite"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Albanese">
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Italian-language_surnames"/>
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Ethonymic_surnames"/>
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Italian_toponymic_surnames"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Prime_Minister_of_Australia"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Rory_Albanese"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/people">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/access">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-    <ns1:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
+    <ns2:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Stellantis">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Corporation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
-    <rdf:type rdf:resource="http://schema.org/Organization"/>
-    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"/>
-    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/PersonFunction"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Mercantilism"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Vehicles">
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessminister">
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessBBC"/>
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessreporters"/>
+    <ex:tell_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/production">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesssign">
+    <ex:see_outside rdf:resource="https://www.bbc.com/news/businessheadquarters"/>
+    <ex:see_on rdf:resource="https://www.bbc.com/news/businessJuly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Macron">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Marcon_(surname)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Micron_(disambiguation)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/University_of_Bolton_Stadium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessleaders">
+    <ex:strike_with rdf:resource="https://www.bbc.com/news/businesspresidentnow"/>
+    <ex:propose_On rdf:resource="https://www.bbc.com/news/businesstrail"/>
+    <ex:propose rdf:resource="https://www.bbc.com/news/businesssolutions"/>
+    <ex:criticise_as rdf:resource="https://www.bbc.com/news/businessder"/>
+    <ex:react_to rdf:resource="https://www.bbc.com/news/businessannouncement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Chinas">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Attribute100024264"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Environment113934596"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Group100031264"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Kingdom114514805"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesstariffs">
+    <ex:spark_on rdf:resource="https://www.bbc.com/news/businessWednesday"/>
+    <ex:spark rdf:resource="https://www.bbc.com/news/businessoff"/>
+    <ex:trigger rdf:resource="https://www.bbc.com/news/businessslump"/>
+    <ex:trigger_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
+    <ex:represent_at rdf:resource="https://www.bbc.com/news/businesstime"/>
+    <ex:base_on rdf:resource="https://www.bbc.com/news/businessdata"/>
+    <ex:frustrate rdf:resource="https://www.bbc.com/news/businessleaders"/>
+    <ex:apply_in rdf:resource="https://www.bbc.com/news/businesssector"/>
+    <ex:put rdf:resource="https://www.bbc.com/news/businessworld"/>
+    <ex:put_on rdf:resource="https://www.bbc.com/news/businessbrink"/>
+    <ex:remain_as rdf:resource="https://www.bbc.com/news/businessEurope"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Markets">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Artificial_objects"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Manufactured_goods"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Transport"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Vehicle"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Market"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Market"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Category_ambiguous"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_ambiguous_term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessThat">
-    <ex:impact rdf:resource="https://www.bbc.com/news/businessconsumers"/>
-    <ex:have_at rdf:resource="https://www.bbc.com/news/businesstime"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesswhich">
-    <ex:open_at rdf:resource="https://www.bbc.com/news/businessBST"/>
-    <ex:appear_in rdf:resource="https://www.bbc.com/news/businesscolumn"/>
-    <ex:measure_against rdf:resource="https://www.bbc.com/news/businesspeers"/>
-    <ex:account_for rdf:resource="https://www.bbc.com/news/business"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/FTA">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/It">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abbreviation107091587"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Form106290637"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Butin">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Butyne"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Mount_Butin"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Butin_(molecule)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Gătaia"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Butin_(surname)"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessSpain">
+    <ex:export rdf:resource="https://www.bbc.com/news/businesslot"/>
+    <ex:export_to rdf:resource="https://www.bbc.com/news/businessUS"/>
+    <ex:export_alongside rdf:resource="https://www.bbc.com/news/businesstonnes"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessevidence">
-    <ex:battle rdf:resource="https://www.bbc.com/news/businessrebels"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Canada">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdf:type rdf:resource="http://schema.org/Country"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessislands">
-    <ex:list_as rdf:resource="https://www.bbc.com/news/businessexample"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessBrussels">
+    <ex:cut rdf:resource="https://www.bbc.com/news/businesstariffs"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesstheyre">
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessfactor"/>
-    <ex:tell_to rdf:resource="https://www.bbc.com/news/businessmake"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessFarrell">
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessCorporation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesssteps">
-    <ex:tie_to rdf:resource="https://www.bbc.com/news/businessconcerns"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/EU">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/European_Union"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/European_Union"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Category_redirect"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/collapse">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/number">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <owl:equivalentProperty rdf:resource="http://bag.basisregistraties.overheid.nl/def/bag#huisnummer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessUS">
+    <ex:buy_from rdf:resource="https://www.bbc.com/news/businessChina"/>
+    <ex:sell_to rdf:resource="https://www.bbc.com/news/businessEU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesssome">
+    <ex:see rdf:resource="https://www.bbc.com/news/businessupsides"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Kumar">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/YaudheyaCoin.jpg"/>
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Gujarati-language_surnames"/>
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Indian_surnames"/>
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Surnames"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/agency">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/شخص"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Leyen">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/House_of_Leyen"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/House_of_Leyen"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_surname"/>
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Leyen?oldid=1052758494&amp;ns=0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/group">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:subClassOf rdf:resource="http://schema.org/Organization"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/تنظیم"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businesswho">
     <ex:meet_with rdf:resource="https://www.bbc.com/news/businessTrump"/>
@@ -479,138 +771,20 @@
     <ex:serve_as rdf:resource="https://www.bbc.com/news/businessadviser"/>
     <ex:serve_since rdf:resource="https://www.bbc.com/news/businessDecember"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessleaders">
-    <ex:strike_with rdf:resource="https://www.bbc.com/news/businesspresidentnow"/>
-    <ex:propose_On rdf:resource="https://www.bbc.com/news/businesstrail"/>
-    <ex:propose rdf:resource="https://www.bbc.com/news/businesssolutions"/>
-    <ex:criticise_as rdf:resource="https://www.bbc.com/news/businessder"/>
-    <ex:react_to rdf:resource="https://www.bbc.com/news/businessannouncement"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesscountry">
+    <ex:sell rdf:resource="https://www.bbc.com/news/businessall"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/editor">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith"/>
-    <owl:equivalentProperty rdf:resource="http://www.wikidata.org/entity/P98"/>
-    <owl:equivalentProperty rdf:resource="https://dblp.org/rdf/schema-2020-07-01#editedBy"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessBeijing">
+    <ex:place rdf:resource="https://www.bbc.com/news/businesscontrols"/>
+    <ex:place_on rdf:resource="https://www.bbc.com/news/businesselements"/>
+    <ex:place_in rdf:resource="https://www.bbc.com/news/businessproduction"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Commission">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Presidential_Commission_(United_States)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Project_commissioning"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Public_service"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Royal_Commission"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Independent_agencies_of_the_United_States_government"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/markets">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Windsor">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatCensus-designatedPlacesInFlorida"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatTownsInWisconsin"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/District108552138"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/moments">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Kumar">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person"/>
-    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/YaudheyaCoin.jpg"/>
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Gujarati-language_surnames"/>
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Indian_surnames"/>
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Surnames"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Thursday">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Stellantis">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessDaimler">
-    <ex:slip_by rdf:resource="https://www.bbc.com/news/business5"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Hundreds">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Hundred_(disambiguation)"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Hundred_(disambiguation)"/>
-    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Hundreds?oldid=928318258&amp;ns=0"/>
-    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Hundreds"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessYou">
-    <ex:hear_about rdf:resource="https://www.bbc.com/news/businessagreement"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessgoods">
-    <ex:hit rdf:resource="https://www.bbc.com/news/businesshike"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessannouncement">
-    <ex:trigger_since rdf:resource="https://www.bbc.com/news/business2020"/>
-    <ex:trigger_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
-    <ex:affect rdf:resource="https://www.bbc.com/news/businessworkers"/>
-    <ex:affect_in rdf:resource="https://www.bbc.com/news/businesscountries"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/s">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/list">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <owl:equivalentClass rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
-    <owl:equivalentClass rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/meeting">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/SocietalEvent"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/معاشرتی_واقعہ"/>
-    <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q2761147"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Canada">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-    <rdf:type rdf:resource="http://schema.org/Country"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/I">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatLatinLetters"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatVowelLetters"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artifact100021939"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessTrump">
-    <ex:impose rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:impose_on rdf:resource="https://www.bbc.com/news/businessChina"/>
-    <ex:raise rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:announce rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:speak_to rdf:resource="https://www.bbc.com/news/businessreporters"/>
-    <ex:speak_on rdf:resource="https://www.bbc.com/news/businessOne"/>
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessreporters"/>
-    <ex:drop_since rdf:resource="https://www.bbc.com/news/business2020"/>
-    <ex:unveil_on rdf:resource="https://www.bbc.com/news/businessWednesday"/>
-    <ex:unveil rdf:resource="https://www.bbc.com/news/businessscheme"/>
-    <ex:unveil_in rdf:resource="https://www.bbc.com/news/businessretaliation"/>
-    <ex:slap rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:deal rdf:resource="https://www.bbc.com/news/businessblow"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessIndia">
-    <ex:fare_In rdf:resource="https://www.bbc.com/news/businessterms"/>
-    <ex:fare_at rdf:resource="https://www.bbc.com/news/business"/>
-    <ex:export rdf:resource="https://www.bbc.com/news/business91bn"/>
-    <ex:export_in rdf:resource="https://www.bbc.com/news/businessgoods"/>
-    <ex:export_to rdf:resource="https://www.bbc.com/news/businessUS"/>
-    <ex:expand_beyond rdf:resource="https://www.bbc.com/news/businessUS"/>
-    <ex:show_In rdf:resource="https://www.bbc.com/news/businesscouple"/>
-    <ex:show rdf:resource="https://www.bbc.com/news/businessappetite"/>
-    <ex:reduce rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:reduce_on rdf:resource="https://www.bbc.com/news/businessgoods"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesshe">
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessBBC"/>
-    <ex:work_on rdf:resource="https://www.bbc.com/news/businessminerals"/>
-    <ex:speak_to rdf:resource="https://www.bbc.com/news/businesscounterparts"/>
-    <ex:speak_on rdf:resource="https://www.bbc.com/news/businessFriday"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <rdf:type rdf:resource="http://schema.org/Organization"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"/>
+    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessChina">
     <ex:hit_against rdf:resource="https://www.bbc.com/news/businesstariffs"/>
@@ -622,231 +796,25 @@
     <ex:impose_on rdf:resource="https://www.bbc.com/news/businessgoods"/>
     <ex:impose_from rdf:resource="https://www.bbc.com/news/businessApril"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Africa">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Erdogan">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Recep_Tayyip_Erdoğan"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Recep_Tayyip_Erdoğan"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_avoided_double_redirect"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_short_title"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_title_without_diacritics"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/collapse">
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessIMF">
+    <ex:look_into rdf:resource="https://www.bbc.com/news/businessimplications"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesscompanies">
+    <ex:engage_in rdf:resource="https://www.bbc.com/news/businesscooperation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/meeting">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/some">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/That">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Food"/>
-    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/OE_thaet.png"/>
-    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Shakespeare-Tomb-Stratford.jpg"/>
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:English_grammar"/>
-    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:English_words"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessLeyen">
-    <ex:claim_including rdf:resource="https://www.bbc.com/news/businessstrength"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Fear">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Album106591815"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Artifact100021939"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Instrumentality103575240"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Medium106254669"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/67">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Year"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/67_Squadron_(disambiguation)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/67th_Regiment_(disambiguation)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Between_the_Eyes"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Chinas">
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Attribute100024264"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Environment113934596"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Group100031264"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Kingdom114514805"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Island">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicGenre"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Coral_island"/>
-    <skos:exactMatch rdf:resource="http://zbw.eu/stw/descriptor/15879-3"/>
-    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_the_Hallig_Süderoog_at_high_tide.jpg"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessCoffin">
-    <ex:make rdf:resource="https://www.bbc.com/news/businessjourney"/>
-    <ex:make_to rdf:resource="https://www.bbc.com/news/businesswaters"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Wednesday">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesspeople">
-    <ex:venture_to rdf:resource="https://www.bbc.com/news/businessIsland"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/regions">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/conflict">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:range rdf:resource="http://dbpedia.org/ontology/MilitaryConflict"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-    <ns1:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Islands">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Coastal_and_oceanic_landforms"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Landforms"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Island"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Island"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessFrance">
-    <ex:collate_at rdf:resource="https://www.bbc.com/news/business"/>
-    <ex:collate_in rdf:resource="https://www.bbc.com/news/businessresearch"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesswe">
-    <ex:see_in rdf:resource="https://www.bbc.com/news/businessmarkets"/>
-    <ex:find rdf:resource="https://www.bbc.com/news/businessdifference"/>
-    <ex:end_in rdf:resource="https://www.bbc.com/news/businesssituation"/>
-    <ex:chart rdf:resource="https://www.bbc.com/news/businesshistory"/>
-    <ex:get rdf:resource="https://www.bbc.com/news/businessaccess"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Europe">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/number">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <owl:equivalentProperty rdf:resource="http://bag.basisregistraties.overheid.nl/def/bag#huisnummer"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessVaishnav">
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessBBC"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Investors">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:People_in_finance_by_occupation"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Investment"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Businesspeople"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/group">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdfs:subClassOf rdf:resource="http://schema.org/Organization"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Organisation"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/تنظیم"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Macron">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Agent"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Marcon_(surname)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Micron_(disambiguation)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/University_of_Bolton_Stadium"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Spain">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/island">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/PopulatedPlace"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/آبادی_والی_جگہ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesshes">
-    <ex:worry_with rdf:resource="https://www.bbc.com/news/businessbikes"/>
-    <ex:lose_to rdf:resource="https://www.bbc.com/news/businesscompanies"/>
-    <ex:lose_over rdf:resource="https://www.bbc.com/news/businessyears"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Trump">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/The_Trump_Organization"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Major_Arcana"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Donald_Trump_(disambiguation)"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Woman">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicGenre"/>
-    <skos:narrower rdf:resource="http://api.nytimes.com/svc/semantic/v2/concept/name/nytd_des/Women%20and%20Girls"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/2020">
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatYearsInTheFuture"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/FundamentalQuantity113575869"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Year115203791"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/counterparts">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/65">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Year"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Chicken_65"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/1965"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/65_(number)"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/market">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessMarkets">
-    <ex:mix_as rdf:resource="https://www.bbc.com/news/businessbrace"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/administration">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/China">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessWe">
-    <ex:have rdf:resource="https://www.bbc.com/news/businessannouncements"/>
-    <ex:have_in rdf:resource="https://www.bbc.com/news/businessmoments"/>
-    <ex:review rdf:resource="https://www.bbc.com/news/businessproposal"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Most">
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatCitiesAndTownsInTheCzechRepublic"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatSocialistPlannedCities"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/City108524735"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/District108552138"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/leaders">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Markets">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Market"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Market"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Category_ambiguous"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_ambiguous_term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/time">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-    <ns1:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/SocietalEvent"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/معاشرتی_واقعہ"/>
+    <owl:equivalentClass rdf:resource="http://www.wikidata.org/entity/Q2761147"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/Coffin">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
@@ -855,25 +823,103 @@
     <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Ancient_Egyptian_Coffin.jpg"/>
     <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/COLLECTIE_TROPENMUSEUM_Een_doodskist_te_Bunuraja_Karo_Noord-Sumatra_TMnr_10003230.jpg"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/start">
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessfutures">
+    <ex:point_to rdf:resource="https://www.bbc.com/news/businessfall"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/future">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/strength">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/TimePeriod"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/MilitaryConflict"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessministers">
-    <ex:meet_in rdf:resource="https://www.bbc.com/news/businessBrussels"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/officials">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesscompanies">
-    <ex:engage_in rdf:resource="https://www.bbc.com/news/businesscooperation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/India">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Europe">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
     <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
     <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessFrance">
+    <ex:collate_at rdf:resource="https://www.bbc.com/news/business"/>
+    <ex:collate_in rdf:resource="https://www.bbc.com/news/businessresearch"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Daimler">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Mercedes-Benz_Mobility"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Daimler_Airway"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Daimler_Buses_North_America"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Daimler_Freeline"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesscountries">
+    <ex:bring rdf:resource="https://www.bbc.com/news/businessmeasures"/>
+    <ex:expose_at rdf:resource="https://www.bbc.com/news/businesswhich"/>
+    <ex:expose_to rdf:resource="https://www.bbc.com/news/businessUS"/>
+    <ex:expose_in rdf:resource="https://www.bbc.com/news/businessterms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesscalculations">
+    <ex:base_on rdf:resource="https://www.bbc.com/news/businessdeficit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/some">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Christina">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Kristina_(disambiguation)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina's_World"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina,_Montana"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina_(1929_film)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina_(1953_film)"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/April">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMonths"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/CalendarMonth115209413"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/manufacturer">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith"/>
+    <owl:equivalentProperty rdf:resource="http://www.wikidata.org/entity/P176"/>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessselling">
+    <ex:continue_despite rdf:resource="https://www.bbc.com/news/businessinvestors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/tariff">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessAlbanese">
+    <ex:say_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessvalue">
+    <ex:equal_in rdf:resource="https://www.bbc.com/news/businesscolumn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/time">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+    <ns2:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/history">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessAttention">
+    <ex:turn_to rdf:resource="https://www.bbc.com/news/businessmarket"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesschannel">
+    <ex:start_on rdf:resource="https://www.bbc.com/news/businessMonday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesshead">
+    <ex:win rdf:resource="https://www.bbc.com/news/businessWoman"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/chief">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
@@ -882,313 +928,94 @@
     <rdfs:range rdf:resource="http://dbpedia.org/ontology/Chief"/>
     <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/index">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Windsor">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatCensus-designatedPlacesInFlorida"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatTownsInWisconsin"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/AdministrativeDistrict108491826"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/District108552138"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessislands">
+    <ex:list_as rdf:resource="https://www.bbc.com/news/businessexample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Woman">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicGenre"/>
+    <skos:narrower rdf:resource="http://api.nytimes.com/svc/semantic/v2/concept/name/nytd_des/Women%20and%20Girls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Albanese">
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Italian-language_surnames"/>
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Ethonymic_surnames"/>
+    <dcterms:subject rdf:resource="http://dbpedia.org/resource/Category:Italian_toponymic_surnames"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Prime_Minister_of_Australia"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Rory_Albanese"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessofficials">
+    <ex:describe_as rdf:resource="https://www.bbc.com/news/businessfreeloaders"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/decades">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/reporter">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/second">
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/start">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/make">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Monday">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessIt">
-    <ex:make rdf:resource="https://www.bbc.com/news/business"/>
-    <ex:sell rdf:resource="https://www.bbc.com/news/businessgoods"/>
-    <ex:lose rdf:resource="https://www.bbc.com/news/businessquotas"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessadministration">
-    <ex:rule rdf:resource="https://www.bbc.com/news/businesscountry"/>
-    <ex:want rdf:resource="https://www.bbc.com/news/businesscuts"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/government">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Island"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/TimePeriod"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
     <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Credit">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Finance"/>
-    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/2005private_sector_credit.png"/>
-    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/I'm_loving_it_--_debit_card_at_the_Guantanamo_McDonalds.jpg"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessHundreds">
-    <ex:hold_in rdf:resource="https://www.bbc.com/news/businesspensions"/>
-    <ex:hold_at rdf:resource="https://www.bbc.com/news/businessmoment"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/border">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/channel">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary"/>
-    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Area"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith"/>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Broadcaster"/>
     <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesstariff">
-    <ex:impose_on rdf:resource="https://www.bbc.com/news/businessIsland"/>
-    <ex:reduce_For rdf:resource="https://www.bbc.com/news/businessCanada"/>
-    <ex:reduce_for rdf:resource="https://www.bbc.com/news/businesscars"/>
-    <ex:apply_to rdf:resource="https://www.bbc.com/news/businesscomponents"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessBeijing">
-    <ex:place rdf:resource="https://www.bbc.com/news/businesscontrols"/>
-    <ex:place_on rdf:resource="https://www.bbc.com/news/businesselements"/>
-    <ex:place_in rdf:resource="https://www.bbc.com/news/businessproduction"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Delhi">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q486972"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessthat">
-    <ex:use_for rdf:resource="https://www.bbc.com/news/businesspurposes"/>
-    <ex:believe_in rdf:resource="https://www.bbc.com/news/businesstrade"/>
-    <ex:get_around rdf:resource="https://www.bbc.com/news/businesssituation"/>
-    <ex:expose_to rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-    <ex:echo_across rdf:resource="https://www.bbc.com/news/businessWindsor"/>
-    <ex:make_with rdf:resource="https://www.bbc.com/news/businesscomponents"/>
-    <ex:produce_in rdf:resource="https://www.bbc.com/news/businesscompliance"/>
-    <ex:build_in rdf:resource="https://www.bbc.com/news/businessCanada"/>
-    <ex:build_with rdf:resource="https://www.bbc.com/news/businessparts"/>
-    <ex:plague_for rdf:resource="https://www.bbc.com/news/businessyears"/>
-    <ex:distribute_in rdf:resource="https://www.bbc.com/news/businessAfrica"/>
-    <ex:come_as rdf:resource="https://www.bbc.com/news/businessbit"/>
-    <ex:break rdf:resource="https://www.bbc.com/news/businesspromise"/>
-    <ex:lead_to rdf:resource="https://www.bbc.com/news/businesswar"/>
-    <ex:emerge_as rdf:resource="https://www.bbc.com/news/businessdumping"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Department">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Department_(film)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Departments_of_Colombia"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Departments_of_France"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Department_store"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Departmentalization"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/growth">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/partners">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/cars">
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessVaishnav">
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessBBC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessthis">
+    <ex:qualify_as rdf:resource="https://www.bbc.com/news/businesscrash"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/range">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/history">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/One">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/1"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/1"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Category_redirect"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Nanji">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Nanaji"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Azim_Nanji"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Shenaaz_Nanji"/>
-    <ns2:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Nanaji"/>
-    <ns2:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Azim_Nanji"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/headquarters">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/MeanOfTransportation"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessleverage">
     <ex:lie_in rdf:resource="https://www.bbc.com/news/businessservices"/>
     <ex:lie_like rdf:resource="https://www.bbc.com/news/businessbanks"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/France">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/plant">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Eukaryote"/>
-    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/خلوی_مادہ"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessFarrell">
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessCorporation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessdifferential">
-    <ex:lead rdf:resource="https://www.bbc.com/news/businessre"/>
-    <ex:lead_to rdf:resource="https://www.bbc.com/news/businessexport"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessbroker">
-    <ex:say_to rdf:resource="https://www.bbc.com/news/businessme"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Brussels">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
-    <rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessplant">
-    <ex:shut_like rdf:resource="https://www.bbc.com/news/businessStellantis"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessAlbanese">
-    <ex:say_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Attention">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Election"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Human_multitasking"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Selective_auditory_attention"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/proposals">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/adviser">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/column">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/She">
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatModernEnglishPersonalPronouns"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/2020">
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatYearsInTheFuture"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/FunctionWord106291318"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/FundamentalQuantity113575869"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Year115203791"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessWeve">
-    <ex:get rdf:resource="https://www.bbc.com/news/businessresponse"/>
-    <ex:get_on rdf:resource="https://www.bbc.com/news/businessChinas"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessBarclaysbank">
+    <ex:see rdf:resource="https://www.bbc.com/news/businessfall"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Boulos">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Name"/>
-    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q202444"/>
-    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q82799"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/GivenName"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesshes">
+    <ex:worry_with rdf:resource="https://www.bbc.com/news/businessbikes"/>
+    <ex:lose_to rdf:resource="https://www.bbc.com/news/businesscompanies"/>
+    <ex:lose_over rdf:resource="https://www.bbc.com/news/businessyears"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Union">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Union_City_(disambiguation)"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Union_Party_(disambiguation)"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Union_Station_(disambiguation)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Puya_(band)"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/production">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Company"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/decades">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/comparison">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/components">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/head">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith"/>
-    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/EducationalInstitution"/>
-    <rdfs:range rdf:resource="http://dbpedia.org/ontology/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/1929">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"/>
-    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q577"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/TimePeriod"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Year"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/example">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesseditor">
-    <ex:throw_in rdf:resource="https://www.bbc.com/news/businessair"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessyou">
-    <ex:scan_across rdf:resource="https://www.bbc.com/news/businesschart"/>
-    <ex:divide rdf:resource="https://www.bbc.com/news/businessnumber"/>
-    <ex:divide_by rdf:resource="https://www.bbc.com/news/businesstwo"/>
-    <ex:have rdf:resource="https://www.bbc.com/news/businesstariff"/>
-    <ex:take_into rdf:resource="https://www.bbc.com/news/businessaccount"/>
-    <ex:price_in rdf:resource="https://www.bbc.com/news/businesscollapse"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/We">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMiddleEnglishPersonalPronouns"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatModernEnglishPersonalPronouns"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatOldEnglishPersonalPronouns"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/deficit">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/price">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/consumers">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesss">
-    <ex:use_as rdf:resource="https://www.bbc.com/news/businessexample"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/sign">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/It">
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abbreviation107091587"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Form106290637"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
-    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesssign">
-    <ex:see_outside rdf:resource="https://www.bbc.com/news/businessheadquarters"/>
-    <ex:see_on rdf:resource="https://www.bbc.com/news/businessJuly"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessSpain">
-    <ex:export rdf:resource="https://www.bbc.com/news/businesslot"/>
-    <ex:export_to rdf:resource="https://www.bbc.com/news/businessUS"/>
-    <ex:export_alongside rdf:resource="https://www.bbc.com/news/businesstonnes"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessindustries">
-    <ex:see_as rdf:resource="https://www.bbc.com/news/businessvulnerable"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/companies">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Christina">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Kristina_(disambiguation)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina's_World"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina,_Montana"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina_(1929_film)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Christina_(1953_film)"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessgovernment">
-    <ex:use rdf:resource="https://www.bbc.com/news/businessannouncement"/>
-    <ex:need rdf:resource="https://www.bbc.com/news/businessplan"/>
-    <ex:adopt_Unlike rdf:resource="https://www.bbc.com/news/businessCanada"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessHouse">
-    <ex:publish rdf:resource="https://www.bbc.com/news/businessmethodology"/>
-    <ex:fire rdf:resource="https://www.bbc.com/news/businesschief"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Butin">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Butyne"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Mount_Butin"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Butin_(molecule)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Gătaia"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Butin_(surname)"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/He">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatMiddleEnglishPersonalPronouns"/>
@@ -1197,134 +1024,73 @@
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/FunctionWord106291318"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessits">
-    <ex:hit_with rdf:resource="https://www.bbc.com/news/businesstariff"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessgroup">
-    <ex:broadcast_with rdf:resource="https://www.bbc.com/news/businesspermission"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesshavent">
-    <ex:see_in rdf:resource="https://www.bbc.com/news/businessdecade"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessFear">
-    <ex:run_in rdf:resource="https://www.bbc.com/news/businessWindsor"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/partners">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/minister">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Politician"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/سیاستدان"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessfigures">
-    <ex:base_on rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessDelhi">
+    <ex:sign rdf:resource="https://www.bbc.com/news/businessagreement"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Lammy">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/David_Lammy"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Um_Jammer_Lammy"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Guns_(Cardiacs_album)"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Happy_Tree_Friends"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Lambda_Literary_Award"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesscrash">
+    <ex:use_over rdf:resource="https://www.bbc.com/news/businessdecades"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessisland">
-    <ex:find_on rdf:resource="https://www.bbc.com/news/businesslist"/>
-    <ex:end_on rdf:resource="https://www.bbc.com/news/businesslist"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessthey">
+    <ex:divert_to rdf:resource="https://www.bbc.com/news/businessUK"/>
+    <ex:see_as rdf:resource="https://www.bbc.com/news/businesscoercion"/>
+    <ex:do_to rdf:resource="https://www.bbc.com/news/businessTrump"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesshandful">
-    <ex:hit_in rdf:resource="https://www.bbc.com/news/businessaddition"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Monday">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/School"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abstraction100002137"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Day115155220"/>
+    <rdf:type rdf:resource="http://dbpedia.org/class/yago/Measure100033615"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessplayers">
-    <ex:invest_at rdf:resource="https://www.bbc.com/news/businesstime"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/parts">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessprice">
-    <ex:slump_from rdf:resource="https://www.bbc.com/news/business67"/>
-    <ex:slump_to rdf:resource="https://www.bbc.com/news/business65"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessminister">
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessBBC"/>
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessreporters"/>
-    <ex:tell_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/hes">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessHe">
-    <ex:have rdf:resource="https://www.bbc.com/news/businessinterests"/>
-    <ex:have_in rdf:resource="https://www.bbc.com/news/businessAfrica"/>
-    <ex:convene rdf:resource="https://www.bbc.com/news/businessmeeting"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/scheme">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessnegotiations">
-    <ex:carry_with rdf:resource="https://www.bbc.com/news/businesspartners"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/terms">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessBangakya">
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessagency"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/peers">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Erdogan">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Recep_Tayyip_Erdoğan"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Recep_Tayyip_Erdoğan"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_avoided_double_redirect"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_short_title"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_title_without_diacritics"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessIt">
+    <ex:make rdf:resource="https://www.bbc.com/news/business"/>
+    <ex:sell rdf:resource="https://www.bbc.com/news/businessgoods"/>
+    <ex:lose rdf:resource="https://www.bbc.com/news/businessquotas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessUnion">
+    <ex:vow rdf:resource="https://www.bbc.com/news/businessresponse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessgovernment">
+    <ex:use rdf:resource="https://www.bbc.com/news/businessannouncement"/>
+    <ex:need rdf:resource="https://www.bbc.com/news/businessplan"/>
+    <ex:adopt_Unlike rdf:resource="https://www.bbc.com/news/businessCanada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessWeve">
+    <ex:get rdf:resource="https://www.bbc.com/news/businessresponse"/>
+    <ex:get_on rdf:resource="https://www.bbc.com/news/businessChinas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessVehicles">
+    <ex:face rdf:resource="https://www.bbc.com/news/businesstaxes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessCanada">
+    <ex:hit_with rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:slap_Like rdf:resource="https://www.bbc.com/news/businessUS"/>
+    <ex:slap rdf:resource="https://www.bbc.com/news/businesstariff"/>
+    <ex:apply_Unlike rdf:resource="https://www.bbc.com/news/businessUS"/>
+    <ex:apply rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+    <ex:stand_for rdf:resource="https://www.bbc.com/news/businessitself"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessChristina">
     <ex:say_as rdf:resource="https://www.bbc.com/news/businesstears"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessconflict">
-    <ex:test rdf:resource="https://www.bbc.com/news/businessact"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessrises">
-    <ex:affect rdf:resource="https://www.bbc.com/news/businesspension"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Washington">
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Universities"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Washington_(state)"/>
-    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Washington"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessBarclaysbank">
-    <ex:see rdf:resource="https://www.bbc.com/news/businessfall"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesshikes">
-    <ex:result_in rdf:resource="https://www.bbc.com/news/businessgrowth"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessIMF">
-    <ex:look_into rdf:resource="https://www.bbc.com/news/businessimplications"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessreporter">
-    <ex:fall_After rdf:resource="https://www.bbc.com/news/businessstart"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesstalks">
-    <ex:expedite_as rdf:resource="https://www.bbc.com/news/businesscracks"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/winners">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/this">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessmarkets">
-    <ex:have rdf:resource="https://www.bbc.com/news/businessday"/>
-    <ex:flood_from rdf:resource="https://www.bbc.com/news/businesscountries"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessNanji">
-    <ex:predict_with rdf:resource="https://www.bbc.com/news/businesstariff"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/US">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/United_States"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/United_States"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_mentioned_in_a_hatnote"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_initialism"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/UK">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
-    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/United_Kingdom"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_mentioned_in_a_hatnote"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessPoilievre">
+    <ex:call_for rdf:resource="https://www.bbc.com/news/businessremoval"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/HQ">
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Abbreviation107091587"/>
@@ -1333,31 +1099,142 @@
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/LanguageUnit106284225"/>
     <rdf:type rdf:resource="http://dbpedia.org/class/yago/Part113809207"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/America">
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Country"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessIslands">
+    <ex:visit_in rdf:resource="https://www.bbc.com/news/businessdecade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessrises">
+    <ex:affect rdf:resource="https://www.bbc.com/news/businesspension"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessshares">
+    <ex:plunge_by rdf:resource="https://www.bbc.com/news/business"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessHundreds">
+    <ex:hold_in rdf:resource="https://www.bbc.com/news/businesspensions"/>
+    <ex:hold_at rdf:resource="https://www.bbc.com/news/businessmoment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/market">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/trail">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/result">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/MilitaryConflict"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/France">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/United_States"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/United_States"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Pp-protected"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/all">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessbusinesses">
-    <ex:face rdf:resource="https://www.bbc.com/news/businessperiod"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessBangakya">
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessagency"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/BBC">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
-    <rdf:type rdf:resource="http://dbpedia.org/ontology/Person"/>
-    <rdf:type rdf:resource="http://schema.org/Organization"/>
-    <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/ministers">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/consumers">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/assets">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/players">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Delhi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q486972"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesss">
+    <ex:use_as rdf:resource="https://www.bbc.com/news/businessexample"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessFTA">
+    <ex:talk_with rdf:resource="https://www.bbc.com/news/businessrange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessresponse">
+    <ex:coordinate_at rdf:resource="https://www.bbc.com/news/businessHQ"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/president">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Politician"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/سیاستدان"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Beijing">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessShares">
+    <ex:nosedive_in rdf:resource="https://www.bbc.com/news/businessresponse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessdifferential">
+    <ex:lead rdf:resource="https://www.bbc.com/news/businessre"/>
+    <ex:lead_to rdf:resource="https://www.bbc.com/news/businessexport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessbarriers">
+    <ex:vary_from rdf:resource="https://www.bbc.com/news/businesscountry"/>
+    <ex:vary_to rdf:resource="https://www.bbc.com/news/businesscountry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/situation">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessUK">
+    <ex:isworke_at rdf:resource="https://www.bbc.com/news/businesspaceto"/>
+    <ex:engage_in rdf:resource="https://www.bbc.com/news/businessdiscussions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/it">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/moments">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/leaders">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/price">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Nanji">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Nanaji"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Azim_Nanji"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Shenaaz_Nanji"/>
+    <ns1:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Nanaji"/>
+    <ns1:wikiPageDisambiguates rdf:resource="http://dbpedia.org/resource/Azim_Nanji"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessShe">
+    <ex:have rdf:resource="https://www.bbc.com/news/businesschildren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessoutposts">
+    <ex:end_on rdf:resource="https://www.bbc.com/news/businesslist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessministers">
+    <ex:meet_in rdf:resource="https://www.bbc.com/news/businessBrussels"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/deficit">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessInvestors">
+    <ex:buy_into rdf:resource="https://www.bbc.com/news/businessassets"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/adviser">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Commission">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Presidential_Commission_(United_States)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Project_commissioning"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Public_service"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Royal_Commission"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Independent_agencies_of_the_United_States_government"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessLammy">
+    <ex:speak_to rdf:resource="https://www.bbc.com/news/businessreporters"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/Nasdaq">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
@@ -1366,293 +1243,416 @@
     <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Nasdaq_exchanges"/>
     <skos:broader rdf:resource="http://dbpedia.org/resource/Category:Stock_exchanges_in_the_United_States"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessmarket">
-    <ex:lose_On rdf:resource="https://www.bbc.com/news/businessOctober"/>
-    <ex:lose rdf:resource="https://www.bbc.com/news/business"/>
-    <ex:lose_in rdf:resource="https://www.bbc.com/news/businessday"/>
-    <ex:lose_in rdf:resource="https://www.bbc.com/news/businessdays"/>
-    <ex:lose_In rdf:resource="https://www.bbc.com/news/business1929"/>
-    <ex:lose_By rdf:resource="https://www.bbc.com/news/businesscomparison"/>
-    <ex:stand_at rdf:resource="https://www.bbc.com/news/business"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessAdministration">
+    <ex:contact_for rdf:resource="https://www.bbc.com/news/businesscomment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Spain">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Place"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Location"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesswe">
+    <ex:see_in rdf:resource="https://www.bbc.com/news/businessmarkets"/>
+    <ex:find rdf:resource="https://www.bbc.com/news/businessdifference"/>
+    <ex:end_in rdf:resource="https://www.bbc.com/news/businesssituation"/>
+    <ex:chart rdf:resource="https://www.bbc.com/news/businesshistory"/>
+    <ex:get rdf:resource="https://www.bbc.com/news/businessaccess"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessErdogan">
+    <ex:rise_from rdf:resource="https://www.bbc.com/news/businessbeginnings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessevidence">
+    <ex:battle rdf:resource="https://www.bbc.com/news/businessrebels"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/bit">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:isDefinedBy rdf:resource="http://dbpedia.org/ontology/"/>
+    <ns2:describedby rdf:resource="http://dbpedia.org/ontology/data/definitions.ttl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesswinners">
+    <ex:affect rdf:resource="https://www.bbc.com/news/businessme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessCommission">
+    <ex:deal_with rdf:resource="https://www.bbc.com/news/businessmatters"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessMarkets">
+    <ex:mix_as rdf:resource="https://www.bbc.com/news/businessbrace"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/two">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/reporter">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessplant">
+    <ex:shut_like rdf:resource="https://www.bbc.com/news/businessStellantis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Boulos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Name"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q202444"/>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q82799"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/GivenName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/days">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessprice">
+    <ex:slump_from rdf:resource="https://www.bbc.com/news/business67"/>
+    <ex:slump_to rdf:resource="https://www.bbc.com/news/business65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/regions">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/parts">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessDaimler">
+    <ex:slip_by rdf:resource="https://www.bbc.com/news/business5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessThat">
+    <ex:impact rdf:resource="https://www.bbc.com/news/businessconsumers"/>
+    <ex:have_at rdf:resource="https://www.bbc.com/news/businesstime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Organization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Organizational_theory"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Matrix_management"/>
+    <skos:narrower rdf:resource="http://api.nytimes.com/svc/semantic/v2/concept/name/nytd_des/Organizations,%20Societies%20and%20Clubs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/period">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesshavent">
+    <ex:see_in rdf:resource="https://www.bbc.com/news/businessdecade"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesswhich">
+    <ex:open_at rdf:resource="https://www.bbc.com/news/businessBST"/>
+    <ex:appear_in rdf:resource="https://www.bbc.com/news/businesscolumn"/>
+    <ex:measure_against rdf:resource="https://www.bbc.com/news/businesspeers"/>
+    <ex:account_for rdf:resource="https://www.bbc.com/news/business"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/vehicles">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Poilievre">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Pierre_Poilievre"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Pierre_Poilievre"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_surname"/>
+    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Poilievre?oldid=1121515867&amp;ns=0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesseconomy">
+    <ex:navigate rdf:resource="https://www.bbc.com/news/businesstremors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessMost">
+    <ex:happen_through rdf:resource="https://www.bbc.com/news/businessAmerica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessHe">
+    <ex:have rdf:resource="https://www.bbc.com/news/businessinterests"/>
+    <ex:have_in rdf:resource="https://www.bbc.com/news/businessAfrica"/>
+    <ex:convene rdf:resource="https://www.bbc.com/news/businessmeeting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Lammy">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/David_Lammy"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Um_Jammer_Lammy"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Guns_(Cardiacs_album)"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Happy_Tree_Friends"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Lambda_Literary_Award"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessNanji">
+    <ex:predict_with rdf:resource="https://www.bbc.com/news/businesstariff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/hes">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/reporters">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/s">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessYou">
+    <ex:hear_about rdf:resource="https://www.bbc.com/news/businessagreement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/elements">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/fall">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessits">
+    <ex:hit_with rdf:resource="https://www.bbc.com/news/businesstariff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesspeople">
+    <ex:venture_to rdf:resource="https://www.bbc.com/news/businessIsland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/make">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessisland">
+    <ex:find_on rdf:resource="https://www.bbc.com/news/businesslist"/>
+    <ex:end_on rdf:resource="https://www.bbc.com/news/businesslist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/countries">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/terms">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/sign">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesseditor">
+    <ex:throw_in rdf:resource="https://www.bbc.com/news/businessair"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/islands">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessreporter">
+    <ex:fall_After rdf:resource="https://www.bbc.com/news/businessstart"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/scheme">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesstheyre">
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessfactor"/>
+    <ex:tell_to rdf:resource="https://www.bbc.com/news/businessmake"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesshandful">
+    <ex:hit_in rdf:resource="https://www.bbc.com/news/businessaddition"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessregions">
     <ex:work_For rdf:resource="https://www.bbc.com/news/businessdecades"/>
     <ex:work_across rdf:resource="https://www.bbc.com/news/businessborder"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessdeclines">
-    <ex:add_to rdf:resource="https://www.bbc.com/news/businessfalls"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessgoods">
+    <ex:hit rdf:resource="https://www.bbc.com/news/businesshike"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/news">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Island">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/MusicGenre"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Coral_island"/>
+    <skos:exactMatch rdf:resource="http://zbw.eu/stw/descriptor/15879-3"/>
+    <foaf:depiction rdf:resource="http://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_the_Hallig_Süderoog_at_high_tide.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessindex">
+    <ex:sink_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessDepartment">
+    <ex:say_On rdf:resource="https://www.bbc.com/news/businessTuesday"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesssteps">
+    <ex:tie_to rdf:resource="https://www.bbc.com/news/businessconcerns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessgiant">
+    <ex:head_into rdf:resource="https://www.bbc.com/news/businessfuture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessI">
+    <ex:speak_to rdf:resource="https://www.bbc.com/news/businessmanufacturer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessCoffin">
+    <ex:make rdf:resource="https://www.bbc.com/news/businessjourney"/>
+    <ex:make_to rdf:resource="https://www.bbc.com/news/businesswaters"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessannouncement">
+    <ex:trigger_since rdf:resource="https://www.bbc.com/news/business2020"/>
+    <ex:trigger_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
+    <ex:affect rdf:resource="https://www.bbc.com/news/businessworkers"/>
+    <ex:affect_in rdf:resource="https://www.bbc.com/news/businesscountries"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/sector">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/path">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessWashington">
+    <ex:bring rdf:resource="https://www.bbc.com/news/businesstariffs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessadministration">
+    <ex:rule rdf:resource="https://www.bbc.com/news/businesscountry"/>
+    <ex:want rdf:resource="https://www.bbc.com/news/businesscuts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/cars">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/proposals">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/One">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/1"/>
+    <ns1:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/1"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Category_redirect"/>
+    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/FTSE">
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Fundamental_theorem_of_software_engineering"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/FTSE_100_Index"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/FTSE_Group"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Australian_Academy_of_Technological_Sciences_and_Engineering"/>
+    <ns1:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/FTSE/Athex_Large_Cap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesspandemic">
+    <ex:hit_in rdf:resource="https://www.bbc.com/news/business2020"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/business">
     <ex:get_to rdf:resource="https://www.bbc.com/news/businessfront"/>
     <ex:export_to rdf:resource="https://www.bbc.com/news/businessUS"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/players">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/administration">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesswhat">
-    <ex:know_as rdf:resource="https://www.bbc.com/news/businesspension"/>
-    <ex:use_for rdf:resource="https://www.bbc.com/news/businessweeks"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesspresident">
-    <ex:agree_on rdf:resource="https://www.bbc.com/news/businesspath"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessrealities">
-    <ex:throw rdf:resource="https://www.bbc.com/news/businessupopportunities"/>
-    <ex:throw_for rdf:resource="https://www.bbc.com/news/businessIndia"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesshead">
-    <ex:win rdf:resource="https://www.bbc.com/news/businessWoman"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/assets">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/winners">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessI">
-    <ex:speak_to rdf:resource="https://www.bbc.com/news/businessmanufacturer"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessbloc">
+    <ex:target rdf:resource="https://www.bbc.com/news/businessservices"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/what">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessnegotiations">
+    <ex:carry_with rdf:resource="https://www.bbc.com/news/businesspartners"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessMost">
-    <ex:happen_through rdf:resource="https://www.bbc.com/news/businessAmerica"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/it">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessUS">
-    <ex:buy_from rdf:resource="https://www.bbc.com/news/businessChina"/>
-    <ex:sell_to rdf:resource="https://www.bbc.com/news/businessEU"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessButin">
-    <ex:import_from rdf:resource="https://www.bbc.com/news/businessterritory"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/people">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesscompany">
-    <ex:halt_at rdf:resource="https://www.bbc.com/news/businessplant"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/controls">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessthey">
-    <ex:divert_to rdf:resource="https://www.bbc.com/news/businessUK"/>
-    <ex:see_as rdf:resource="https://www.bbc.com/news/businesscoercion"/>
-    <ex:do_to rdf:resource="https://www.bbc.com/news/businessTrump"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessEurope">
-    <ex:hope_for rdf:resource="https://www.bbc.com/news/businessdeal"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/two">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/data">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessindex">
-    <ex:sink_on rdf:resource="https://www.bbc.com/news/businessThursday"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessUnion">
-    <ex:vow rdf:resource="https://www.bbc.com/news/businessresponse"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/trail">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/countries">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/steps">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessMacron">
     <ex:call rdf:resource="https://www.bbc.com/news/businessthem"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/off">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessgiant">
-    <ex:head_into rdf:resource="https://www.bbc.com/news/businessfuture"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/Poilievre">
-    <ns2:wikiPageWikiLink rdf:resource="http://dbpedia.org/resource/Pierre_Poilievre"/>
-    <ns2:wikiPageRedirects rdf:resource="http://dbpedia.org/resource/Pierre_Poilievre"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:Redirect_category_shell"/>
-    <ns3:wikiPageUsesTemplate rdf:resource="http://dbpedia.org/resource/Template:R_from_surname"/>
-    <prov:wasDerivedFrom rdf:resource="http://en.wikipedia.org/wiki/Poilievre?oldid=1121515867&amp;ns=0"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessLammy">
-    <ex:speak_to rdf:resource="https://www.bbc.com/news/businessreporters"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/days">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessfirm">
-    <ex:tell rdf:resource="https://www.bbc.com/news/businessme"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/islands">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/this">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessUK">
-    <ex:isworke_at rdf:resource="https://www.bbc.com/news/businesspaceto"/>
-    <ex:engage_in rdf:resource="https://www.bbc.com/news/businessdiscussions"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessShe">
-    <ex:have rdf:resource="https://www.bbc.com/news/businesschildren"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessPoilievre">
-    <ex:call_for rdf:resource="https://www.bbc.com/news/businessremoval"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/industries">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/news">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessvalue">
-    <ex:equal_in rdf:resource="https://www.bbc.com/news/businesscolumn"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessphone">
-    <ex:go_toBBCAfricacomfor rdf:resource="https://www.bbc.com/news/businessnews"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/ice">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/period">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/officials">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessIslands">
-    <ex:visit_in rdf:resource="https://www.bbc.com/news/businessdecade"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesseconomy">
-    <ex:navigate rdf:resource="https://www.bbc.com/news/businesstremors"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessBrussels">
-    <ex:cut rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/fall">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/bikes">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessErdogan">
-    <ex:rise_from rdf:resource="https://www.bbc.com/news/businessbeginnings"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessshares">
-    <ex:plunge_by rdf:resource="https://www.bbc.com/news/business"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessShares">
-    <ex:nosedive_in rdf:resource="https://www.bbc.com/news/businessresponse"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/services">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/tariff">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/steps">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessoutposts">
-    <ex:end_on rdf:resource="https://www.bbc.com/news/businesslist"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessEurope">
+    <ex:hope_for rdf:resource="https://www.bbc.com/news/businessdeal"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessFTSE">
     <ex:drop_with rdf:resource="https://www.bbc.com/news/businesscompanies"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessAttention">
-    <ex:turn_to rdf:resource="https://www.bbc.com/news/businessmarket"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/companies">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessDepartment">
-    <ex:say_On rdf:resource="https://www.bbc.com/news/businessTuesday"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessgroup">
+    <ex:broadcast_with rdf:resource="https://www.bbc.com/news/businesspermission"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessbloc">
-    <ex:target rdf:resource="https://www.bbc.com/news/businessservices"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessfirm">
+    <ex:tell rdf:resource="https://www.bbc.com/news/businessme"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessthis">
-    <ex:qualify_as rdf:resource="https://www.bbc.com/news/businesscrash"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/index">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/data">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesshikes">
+    <ex:result_in rdf:resource="https://www.bbc.com/news/businessgrowth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessLeyen">
+    <ex:claim_including rdf:resource="https://www.bbc.com/news/businessstrength"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessmove">
     <ex:ban rdf:resource="https://www.bbc.com/news/businessexport"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/elements">
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessdeclines">
+    <ex:add_to rdf:resource="https://www.bbc.com/news/businessfalls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessbusinesses">
+    <ex:face rdf:resource="https://www.bbc.com/news/businessperiod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessconflict">
+    <ex:test rdf:resource="https://www.bbc.com/news/businessact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/column">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessfutures">
-    <ex:point_to rdf:resource="https://www.bbc.com/news/businessfall"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessnumber">
+    <ex:fall_by rdf:resource="https://www.bbc.com/news/businesssecond"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessAdministration">
-    <ex:contact_for rdf:resource="https://www.bbc.com/news/businesscomment"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/future">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/example">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/chart">
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessbroker">
+    <ex:say_to rdf:resource="https://www.bbc.com/news/businessme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesswhat">
+    <ex:know_as rdf:resource="https://www.bbc.com/news/businesspension"/>
+    <ex:use_for rdf:resource="https://www.bbc.com/news/businessweeks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/children">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/comparison">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/decade">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesstalks">
+    <ex:expedite_as rdf:resource="https://www.bbc.com/news/businesscracks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessButin">
+    <ex:import_from rdf:resource="https://www.bbc.com/news/businessterritory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/all">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://dbpedia.org/resource/who">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessselling">
-    <ex:continue_despite rdf:resource="https://www.bbc.com/news/businessinvestors"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/children">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/differential">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessThis">
-    <ex:turn_into rdf:resource="https://www.bbc.com/news/businesscrash"/>
-    <ex:take rdf:resource="https://www.bbc.com/news/businesstime"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessDelhi">
-    <ex:sign rdf:resource="https://www.bbc.com/news/businessagreement"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/sector">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/growth">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/situation">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/industries">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessCommission">
-    <ex:deal_with rdf:resource="https://www.bbc.com/news/businessmatters"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesspresident">
+    <ex:agree_on rdf:resource="https://www.bbc.com/news/businesspath"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessWashington">
-    <ex:bring rdf:resource="https://www.bbc.com/news/businesstariffs"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesscountry">
-    <ex:sell rdf:resource="https://www.bbc.com/news/businessall"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesscrash">
-    <ex:use_over rdf:resource="https://www.bbc.com/news/businessdecades"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesswinners">
-    <ex:affect rdf:resource="https://www.bbc.com/news/businessme"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/decade">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/components">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesscalculations">
-    <ex:base_on rdf:resource="https://www.bbc.com/news/businessdeficit"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businesscompany">
+    <ex:halt_at rdf:resource="https://www.bbc.com/news/businessplant"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessofficials">
-    <ex:describe_as rdf:resource="https://www.bbc.com/news/businessfreeloaders"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessfigures">
+    <ex:base_on rdf:resource="https://www.bbc.com/news/businesstariffs"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businessInvestors">
-    <ex:buy_into rdf:resource="https://www.bbc.com/news/businessassets"/>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessCredit">
+    <ex:see rdf:resource="https://www.bbc.com/news/businesswebsite"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://www.bbc.com/news/businesssome">
-    <ex:see rdf:resource="https://www.bbc.com/news/businessupsides"/>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/bikes">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessplayers">
+    <ex:invest_at rdf:resource="https://www.bbc.com/news/businesstime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessFear">
+    <ex:run_in rdf:resource="https://www.bbc.com/news/businessWindsor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/ministers">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/ice">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessphone">
+    <ex:go_toBBCAfricacomfor rdf:resource="https://www.bbc.com/news/businessnews"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.bbc.com/news/businessindustries">
+    <ex:see_as rdf:resource="https://www.bbc.com/news/businessvulnerable"/>
   </rdf:Description>
   <rdf:Description rdf:about="https://www.bbc.com/news/businessBoulos">
     <ex:expand_on rdf:resource="https://www.bbc.com/news/businessproposals"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/vehicles">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/controls">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://dbpedia.org/resource/path">
+  <rdf:Description rdf:about="http://dbpedia.org/resource/markets">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/off">
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
   </rdf:Description>
 </rdf:RDF>

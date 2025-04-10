@@ -4,7 +4,7 @@ This project is part of the Web datamining &amp; semantics course.
 
 # RESTE A FAIRE
 
-- finir Part 2: ajouter toute la partie WITH data augmentation
+- finir Part 2: ajouter la partie comparaison 
 
 - ajouter un autre modèle dans la Part 2
 

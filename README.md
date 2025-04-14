@@ -3,6 +3,12 @@ This project is part of the Web datamining &amp; semantics course.
 
 ![BBC Website](Documents/bbc_website_image.png)
 
+
+## Members
+
+- Wendy DUONG
+- Ilan ZINI
+
 ## Overview
 
 This project is divided into two parts: **Part 1: Web Scraping and Knowledge Base Construction** and **Part 2: Knowledge Graph Embedding**. The goal is to build a knowledge graph from raw text data (such as articles), enrich it using external data sources like DBpedia, and then apply knowledge graph embedding techniques to analyze and visualize the relationships between the entities in the graph.
